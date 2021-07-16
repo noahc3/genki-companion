@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'UDDigiKyokashoNK-R-03';
+    src:local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.woff) format('woff'),
+        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.woff2) format('woff2'),
+        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.svg#UDDigiKyokashoNK-R-03) format('svg'),
+        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.eot),
+        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.eot?#iefix) format('embedded-opentype'),
+        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.ttf) format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: u+3000-30ff;
+}
+  
+
+body {
+    font-family: 'UDDigiKyokashoNK-R-03', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    margin: 0 0 0 0;
+}
+
+h2 {
+    margin: 1rem 0 0 0;
+}
+
+button.btn {
+    border: none;
+    color: white;
+    margin: 2rem 1rem;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    width:fit-content;
+    cursor: pointer;
+}
+
+button.wide-btn {
+    border: none;
+    color: white;
+    margin-top:2rem;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 24px;
+    width:100%;
+    cursor: pointer;
+}
+
+.bg-green {
+    background-color: #4CAF50;
+}
+
+.bg-gray {
+    background-color: darkslategrey; 
+}
+
+.centered-fit-width {
+    width: fit-content;
+    margin:auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color: green;
+}
+
+.question-highlight {
+    text-decoration: underline;
+    color:deeppink;
+}
+
+.readings-answer {
+    margin: 10px;
+}
+
+#main-view {
+    
+    margin-left:auto;
+    margin-right:auto;
+    width: fit-content;
+
+    padding:2rem;
+    border: 2px solid black;
+}
+
+.options {
+    overflow: hidden;
+    margin-left:auto;
+    margin-right:auto;
+    width:fit-content;
+}
+
+.options-container {
+    float: left;
+    margin-left:auto;
+    margin-right:10px;
+    margin-bottom:10px;
+    width:fit-content;
+    padding:10px;
+    border: 1px solid black;
+}
+
+.options-item {
+    display:block;
+    margin-bottom: 2px;
+}
+
+.result-container {
+    margin:2rem;
+}
+
+.result-item {
+    padding:10px;
+    border: 1px solid black;
+}
+
+.copyright {
+    width:80%;
+    margin: auto;
+}
