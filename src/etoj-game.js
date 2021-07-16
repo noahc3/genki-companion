@@ -55,7 +55,7 @@ export default class EngToJapGame extends React.Component {
         reasonableAnswers.push(str);
         reasonableAnswers.push(str.replace(" ", ""));
 
-        reasonableAnswers.push(str.replace(/\s*\([^)]*)\s*/giu, ""))
+        reasonableAnswers.push(str.replace(/\s*\([^)]*\)\s*/giu, ""))
 
         str = str.replace("(", "");
         str = str.replace(")", "");
