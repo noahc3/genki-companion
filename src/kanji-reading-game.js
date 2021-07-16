@@ -114,7 +114,7 @@ export default class KanjiReadingGame extends React.Component {
                     <div>
                         {answerCombos}
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }

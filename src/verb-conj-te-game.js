@@ -39,15 +39,15 @@ export default class VerbConjTeGame extends React.Component {
 
     conjugateKana(word) {
         let result = word.hiragana;
-        if (word.type == "ru-verb") {
+        if (word.type === "ru-verb") {
             result = result.replace(/る$/giu, "て");
-        } else if (word.type == "u-verb") {
-            if (word.hiragana == "いく") {
+        } else if (word.type === "u-verb") {
+            if (word.hiragana === "いく") {
                 result = "いって";
             } else {
                 result = result.replace(/.$/giu, U_CONVERSION_TABLE[result[result.length - 1]])
             }
-        } else if (word.type == "irregular-verb") {
+        } else if (word.type === "irregular-verb") {
             result = result.replace(/する$/giu, "して");
             result = result.replace(/くる$/giu, "きて");
         }
@@ -60,10 +60,10 @@ export default class VerbConjTeGame extends React.Component {
 
         const kanaAnswer = this.state.kanaAnswer;
         const romajiAnswer = this.state.romajiAnswer;
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[\.~\[\]\s']+/giu, "");
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\]\s']+/giu, "");
         let correct = false;
 
-        if (userAnswer == kanaAnswer || userAnswer == romajiAnswer) {
+        if (userAnswer === kanaAnswer || userAnswer === romajiAnswer) {
             correct = true;
         }
 
@@ -136,7 +136,7 @@ export default class VerbConjTeGame extends React.Component {
                 resultAnswer = (
                     <div>
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }

@@ -27,10 +27,10 @@ export default class AdjConjTeGame extends React.Component {
 
     conjugateKana(word) {
         let result = word.hiragana;
-        if (word.type == "na-adjective") {
+        if (word.type === "na-adjective") {
             result = result.replace(/\s\(な\)/giu, "で");
-        } else if (word.type == "i-adjective") {
-            if (word.hiragana == "いい") {
+        } else if (word.type === "i-adjective") {
+            if (word.hiragana === "いい") {
                 result = "よくて";
             } else { 
                 result = result.replace(/い$/giu, "くて");
@@ -45,10 +45,10 @@ export default class AdjConjTeGame extends React.Component {
 
         const kanaAnswer = this.state.kanaAnswer;
         const romajiAnswer = this.state.romajiAnswer;
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[\.~\[\]\s']+/giu, "");
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\]\s']+/giu, "");
         let correct = false;
 
-        if (userAnswer == kanaAnswer || userAnswer == romajiAnswer) {
+        if (userAnswer === kanaAnswer || userAnswer === romajiAnswer) {
             correct = true;
         }
 
@@ -121,7 +121,7 @@ export default class AdjConjTeGame extends React.Component {
                 resultAnswer = (
                     <div>
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }

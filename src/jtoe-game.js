@@ -21,8 +21,8 @@ export default class JapToEngGame extends React.Component {
     answerHandler(event) {
         event.preventDefault();
 
-        const answer = this.state.answer.toLowerCase().replace(/[\.~\[\s\?']+/giu, "");
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[\.~\[\]\s\?']+/giu, "");
+        const answer = this.state.answer.toLowerCase().replace(/[.~[\s?']+/giu, "");
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\]\s?']+/giu, "");
         const answers = answer.split(';');
         let correct = false;
         let reasonableAnswers = [];
@@ -49,13 +49,13 @@ export default class JapToEngGame extends React.Component {
 
         reasonableAnswers.push(str);
 
-        str = str.replace(/\s*[＋\+].*/giu, "");
+        str = str.replace(/\s*[＋+].*/giu, "");
         reasonableAnswers.push(str);
 
         reasonableAnswers.push(str);
         reasonableAnswers.push(str.replace(" ", ""));
 
-        reasonableAnswers.push(str.replace(/\s*\([^\)]*\)\s*/giu, ""))
+        reasonableAnswers.push(str.replace(/\s*\([^)]*)\s*/giu, ""))
 
         str = str.replace("(", "");
         str = str.replace(")", "");
@@ -126,7 +126,7 @@ export default class JapToEngGame extends React.Component {
                 resultAnswer = (
                     <div>
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }

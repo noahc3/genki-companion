@@ -21,8 +21,8 @@ export default class KanjiDefinitionGame extends React.Component {
     answerHandler(event) {
         event.preventDefault();
 
-        const definitions = this.state.definitions.toLowerCase().replace(/[\.~\[\s\?']+/giu, "");
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[\.~\[\s\?']+/giu, "");
+        const definitions = this.state.definitions.toLowerCase().replace(/[.~[\s?']+/giu, "");
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\s?']+/giu, "");
         const reasonableAnswers = definitions.split(';');
         let correct = false;
 
@@ -110,7 +110,7 @@ export default class KanjiDefinitionGame extends React.Component {
                     <div>
                         {answerCombos}
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }

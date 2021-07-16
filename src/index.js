@@ -13,7 +13,6 @@ import VerbConjTeGame from './verb-conj-te-game';
 import KanjiReadingGame from './kanji-reading-game';
 import KanjiDefinitionGame from './kanji-definition-game';
 import OptionsComponent from './options-component';
-import { renderIntoDocument } from 'react-dom/test-utils';
 
 const EDITION = 3;
 
@@ -193,7 +192,7 @@ class MainView extends React.Component {
 
         //remove duplicates.
         validWordTypes.filter((type, index) => {
-            return (validWordTypes.indexOf(type) == index);
+            return (validWordTypes.indexOf(type) === index);
         })
 
         //remove word types that cannot be used in the game pool
@@ -229,10 +228,10 @@ class MainView extends React.Component {
         const gamePool = this.buildGamePool();
         const wordPool = this.buildWordPool(gamePool);
 
-        if (Object.keys(gamePool).length == 0) {
+        if (Object.keys(gamePool).length === 0) {
             alert("You haven't selected any games!");
             return;
-        } else if (Object.keys(wordPool).length == 0) {
+        } else if (Object.keys(wordPool).length === 0) {
             alert("You haven't selected any lessons, or the lessons you selected do not have the types of words needed for the games you selected.");
             return;
         }
@@ -268,7 +267,7 @@ class MainView extends React.Component {
 
         const newState = Object.assign({}, this.state);
         delete newState.wordPool[activeWordType][activeWordRomaji];
-        if (Object.keys(newState.wordPool[activeWordType]).length == 0) {
+        if (Object.keys(newState.wordPool[activeWordType]).length === 0) {
             delete newState.wordPool[activeWordType];
         }
         newState.currentGame++;
@@ -386,12 +385,12 @@ class MainView extends React.Component {
             else if (display === "jtoe") game = <JapToEngGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "adj-pres-conj") game = <AdjConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "adj-past-conj") game = <AdjContPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
-            else if (display == "adj-te-conj") game = <AdjConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
-            else if (display == "verb-pres-conj") game = <VerbConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
-            else if (display == "verb-past-conj") game = <VerbConjPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
-            else if (display == "verb-te-conj") game = <VerbConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
-            else if (display == "kanji-reading") game = <KanjiReadingGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
-            else if (display == "kanji-definition") game = <KanjiDefinitionGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "adj-te-conj") game = <AdjConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "verb-pres-conj") game = <VerbConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "verb-past-conj") game = <VerbConjPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "verb-te-conj") game = <VerbConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "kanji-reading") game = <KanjiReadingGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "kanji-definition") game = <KanjiDefinitionGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             
             return (
                 <div>

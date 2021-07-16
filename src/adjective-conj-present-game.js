@@ -13,7 +13,7 @@ export default class AdjConjPresentGame extends React.Component {
 
         this.state = {
             question: question,
-            type: (type == 0) ? "affirmative" : "negative",
+            type: (type === 0) ? "affirmative" : "negative",
             kanaAnswer: kanaAnswer,
             romajiAnswer: romajiAnswer,
             userAnswer: "",
@@ -29,18 +29,18 @@ export default class AdjConjPresentGame extends React.Component {
 
     conjugateKana(word, posNeg) {
         let result = word.hiragana;
-        if (word.type == "na-adjective") {
-            if (posNeg == 0) {
+        if (word.type === "na-adjective") {
+            if (posNeg === 0) {
                 result = result.replace(/\s\(な\)/giu, "です");
             } else {
                 result = result.replace(/\s\(な\)/giu, "じゃないです");
             }
-        } else if (word.type == "i-adjective") {
-            if (posNeg == 0) {
+        } else if (word.type === "i-adjective") {
+            if (posNeg === 0) {
                 result = result + "です";
             } else {
                 //special conjugation for ii
-                if (word.hiragana == "いい") {
+                if (word.hiragana === "いい") {
                     result = "よくないです";
                 } else { 
                     result = result.replace(/い$/giu, "くないです");
@@ -56,10 +56,10 @@ export default class AdjConjPresentGame extends React.Component {
 
         const kanaAnswer = this.state.kanaAnswer;
         const romajiAnswer = this.state.romajiAnswer;
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[\.~\[\]\s']+/giu, "");
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\]\s']+/giu, "");
         let correct = false;
 
-        if (userAnswer == kanaAnswer || userAnswer == romajiAnswer) {
+        if (userAnswer === kanaAnswer || userAnswer === romajiAnswer) {
             correct = true;
         }
 
@@ -133,7 +133,7 @@ export default class AdjConjPresentGame extends React.Component {
                 resultAnswer = (
                     <div>
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }

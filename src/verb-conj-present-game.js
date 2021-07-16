@@ -29,7 +29,7 @@ export default class VerbConjPresentGame extends React.Component {
 
         this.state = {
             question: question,
-            type: (type == 0) ? "affirmative" : "negative",
+            type: (type === 0) ? "affirmative" : "negative",
             kanaAnswer: kanaAnswer,
             romajiAnswer: romajiAnswer,
             userAnswer: "",
@@ -45,25 +45,25 @@ export default class VerbConjPresentGame extends React.Component {
 
     conjugateKana(word, posNeg) {
         let result = word.hiragana;
-        if (word.type == "ru-verb") {
-            if (posNeg == 0) {
+        if (word.type === "ru-verb") {
+            if (posNeg === 0) {
                 result = result.replace(/る$/giu, "ます");
             } else {
                 result = result.replace(/る$/giu, "ません");
             }
-        } else if (word.type == "u-verb") {
-            if (posNeg == 0) {
+        } else if (word.type === "u-verb") {
+            if (posNeg === 0) {
                 result = result.replace(/.$/giu, U_CONVERSION_TABLE[result[result.length - 1]] + "ます")
-            } else if (posNeg == 1) {
+            } else if (posNeg === 1) {
                 result = result.replace(/.$/giu, U_CONVERSION_TABLE[result[result.length - 1]] + "ません")
             }
-        } else if (word.type == "irregular-verb") {
+        } else if (word.type === "irregular-verb") {
             result = result.replace(/する$/giu, "し");
             result = result.replace(/くる$/giu, "き");
 
-            if (posNeg == 0) {
+            if (posNeg === 0) {
                 result += "ます";
-            } else if (posNeg == 1) {
+            } else if (posNeg === 1) {
                 result += "ません";
             }
         }
@@ -76,10 +76,10 @@ export default class VerbConjPresentGame extends React.Component {
 
         const kanaAnswer = this.state.kanaAnswer;
         const romajiAnswer = this.state.romajiAnswer;
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[\.~\[\]\s']+/giu, "");
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\]\s']+/giu, "");
         let correct = false;
 
-        if (userAnswer == kanaAnswer || userAnswer == romajiAnswer) {
+        if (userAnswer === kanaAnswer || userAnswer === romajiAnswer) {
             correct = true;
         }
 
@@ -153,7 +153,7 @@ export default class VerbConjPresentGame extends React.Component {
                 resultAnswer = (
                     <div>
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }

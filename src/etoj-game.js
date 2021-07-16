@@ -46,7 +46,7 @@ export default class EngToJapGame extends React.Component {
         str = str.toLowerCase();
         reasonableAnswers.push(str);
 
-        str = str.replace(/\s*[＋\+].*/giu, "");
+        str = str.replace(/\s*[＋+].*/giu, "");
         reasonableAnswers.push(str);
 
         str = str.replace("~", "");
@@ -55,7 +55,7 @@ export default class EngToJapGame extends React.Component {
         reasonableAnswers.push(str);
         reasonableAnswers.push(str.replace(" ", ""));
 
-        reasonableAnswers.push(str.replace(/\s*\([^\)]*\)\s*/giu, ""))
+        reasonableAnswers.push(str.replace(/\s*\([^)]*)\s*/giu, ""))
 
         str = str.replace("(", "");
         str = str.replace(")", "");
@@ -127,7 +127,7 @@ export default class EngToJapGame extends React.Component {
                 resultAnswer = (
                     <div>
                         <h3>{resultAnswer}</h3>
-                        <a href="#" onClick={() => {this.setState({correct: true})}}>Override: I was correct.</a>
+                        <button type="button" onClick={() => {this.setState({correct: true})}}>Override: I was correct</button>
                     </div>
                 );
             }
