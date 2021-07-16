@@ -1,0 +1,5582 @@
+[
+  {
+    "hiragana": "ありがとう",
+    "kanji": "",
+    "romaji": "arigatou",
+    "type": "expression",
+    "english": "Thank you.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "ありがとうございます",
+    "kanji": "",
+    "romaji": "arigatougozaimasu",
+    "type": "expression",
+    "english": "Thank you. (polite)",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "いいえ",
+    "kanji": "",
+    "romaji": "iie",
+    "type": "expression",
+    "english": "No.; Not at all.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "いただきます",
+    "kanji": "",
+    "romaji": "itadakimasu",
+    "type": "expression",
+    "english": "Thank you for the meal. (before eating)",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "いってきます",
+    "kanji": "",
+    "romaji": "ittekimasu",
+    "type": "expression",
+    "english": "I’ll go and come back.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "いってらっしゃい",
+    "kanji": "",
+    "romaji": "itterasshai",
+    "type": "expression",
+    "english": "Please go and come back.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "おかえり (なさい)",
+    "kanji": "",
+    "romaji": "okaeri (nasai)",
+    "type": "expression",
+    "english": "Welcome home.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "おはよう",
+    "kanji": "",
+    "romaji": "ohayou",
+    "type": "expression",
+    "english": "Good morning.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "おはようございます",
+    "kanji": "",
+    "romaji": "ohayougozaimasu",
+    "type": "expression",
+    "english": "Good morning. (polite)",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "おやすみ (なさい)",
+    "kanji": "",
+    "romaji": "oyasumi (nasai)",
+    "type": "expression",
+    "english": "Good night.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "ごちそうさま (でした)",
+    "kanji": "",
+    "romaji": "gochisousama (deshita)",
+    "type": "expression",
+    "english": "Thank you for the meal. (after eating)",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "こんにちは",
+    "kanji": "",
+    "romaji": "konnichiha",
+    "type": "expression",
+    "english": "Good afternoon.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "こんばんは",
+    "kanji": "",
+    "romaji": "konbanha",
+    "type": "expression",
+    "english": "Good evening.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "さようなら",
+    "kanji": "",
+    "romaji": "sayounara",
+    "type": "expression",
+    "english": "Good-bye.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "すみません",
+    "kanji": "",
+    "romaji": "sumimasen",
+    "type": "expression",
+    "english": "Excuse me.;  I’m sorry.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "ただいま",
+    "kanji": "",
+    "romaji": "tadaima",
+    "type": "expression",
+    "english": "I’m home.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "～です",
+    "kanji": "",
+    "romaji": "~desu",
+    "type": "expression",
+    "english": "I am... .",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "はじめまして",
+    "kanji": "",
+    "romaji": "hajimemashite",
+    "type": "expression",
+    "english": "How do you do ?",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "よろしくおねがいします",
+    "kanji": "よろしくお願いします",
+    "romaji": "yoroshikuonegaishimasu",
+    "type": "expression",
+    "english": "Nice to meet you.",
+    "lesson": "G",
+    "edition": 3
+  },
+  {
+    "hiragana": "アジアけんきゅう",
+    "kanji": "アジア研究",
+    "romaji": "ajiakenkyuu",
+    "type": "noun",
+    "english": "Asian studies",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "アメリカ",
+    "kanji": "",
+    "romaji": "amerika",
+    "type": "noun",
+    "english": "U.S.A.",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "いちねんせい",
+    "kanji": "一年生",
+    "romaji": "ichinensei",
+    "type": "noun",
+    "english": "first-year student",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "インド",
+    "kanji": "",
+    "romaji": "indo",
+    "type": "noun",
+    "english": "India",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "エジプト",
+    "kanji": "",
+    "romaji": "ejiputo",
+    "type": "noun",
+    "english": "Egypt",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "がくせい",
+    "kanji": "学生",
+    "romaji": "gakusei",
+    "type": "noun",
+    "english": "student",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "カナダ",
+    "kanji": "",
+    "romaji": "kanada",
+    "type": "noun",
+    "english": "Canada",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "こうこう",
+    "kanji": "高校",
+    "romaji": "koukou",
+    "type": "noun",
+    "english": "high school",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "こうこうせい",
+    "kanji": "高校生",
+    "romaji": "koukousei",
+    "type": "noun",
+    "english": "high school student",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "こくさいかんけい",
+    "kanji": "国際関係",
+    "romaji": "kokusaikankei",
+    "type": "noun",
+    "english": "international relations",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "ごご",
+    "kanji": "午後",
+    "romaji": "gogo",
+    "type": "noun",
+    "english": "p.m.",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "ごぜん",
+    "kanji": "午前",
+    "romaji": "gozen",
+    "type": "noun",
+    "english": "a.m.",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "しゅふ",
+    "kanji": "主婦",
+    "romaji": "shufu",
+    "type": "noun",
+    "english": "housewife",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "せいぶつがく",
+    "kanji": "生物学",
+    "romaji": "seibutsugaku",
+    "type": "noun",
+    "english": "biology",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "せんこう",
+    "kanji": "専攻",
+    "romaji": "senkou",
+    "type": "noun",
+    "english": "major",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "せんせい",
+    "kanji": "先生",
+    "romaji": "sensei",
+    "type": "noun",
+    "english": "teacher; Professor...",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "だいがく",
+    "kanji": "大学",
+    "romaji": "daigaku",
+    "type": "noun",
+    "english": "college; university",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "だいがくいんせい",
+    "kanji": "大学院生",
+    "romaji": "daigakuinsei",
+    "type": "noun",
+    "english": "graduate student",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "だいがくせい",
+    "kanji": "大学生",
+    "romaji": "daigakusei",
+    "type": "noun",
+    "english": "college student",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "でんわ",
+    "kanji": "電話",
+    "romaji": "denwa",
+    "type": "noun",
+    "english": "telephone",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "ともだち",
+    "kanji": "友だち",
+    "romaji": "tomodachi",
+    "type": "noun",
+    "english": "friend",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "なに/なん",
+    "kanji": "何",
+    "romaji": "nani/nan",
+    "type": "noun",
+    "english": "what",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "なまえ",
+    "kanji": "名前",
+    "romaji": "namae",
+    "type": "noun",
+    "english": "name",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "なん/なに",
+    "kanji": "何",
+    "romaji": "nan/nani",
+    "type": "noun",
+    "english": "what",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "にじはん",
+    "kanji": "二時半",
+    "romaji": "nijihan",
+    "type": "noun",
+    "english": "half past two",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "にほん",
+    "kanji": "日本",
+    "romaji": "nihon",
+    "type": "noun",
+    "english": "Japan",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "にほんご",
+    "kanji": "日本語",
+    "romaji": "nihongo",
+    "type": "noun",
+    "english": "Japanese language",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "にほんじん",
+    "kanji": "日本人",
+    "romaji": "nihonjin",
+    "type": "noun",
+    "english": "Japanese people",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "ばんごう",
+    "kanji": "番号",
+    "romaji": "bangou",
+    "type": "noun",
+    "english": "number",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "フィリピン",
+    "kanji": "",
+    "romaji": "firipin",
+    "type": "noun",
+    "english": "Philippines",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "りゅうがくせい",
+    "kanji": "留学生",
+    "romaji": "ryuugakusei",
+    "type": "noun",
+    "english": "international student",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "わたし",
+    "kanji": "私",
+    "romaji": "watashi",
+    "type": "noun",
+    "english": "I",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "いちじ",
+    "kanji": "一時",
+    "romaji": "ichiji",
+    "type": "noun",
+    "english": "one o’clock",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "いしゃ",
+    "kanji": "医者",
+    "romaji": "isha",
+    "type": "noun",
+    "english": "doctor",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "オーストラリア",
+    "kanji": "",
+    "romaji": "oosutoraria",
+    "type": "noun",
+    "english": "Australia",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "かんごし",
+    "kanji": "看護師",
+    "romaji": "kangoshi",
+    "type": "noun",
+    "english": "nurse",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "せいじ",
+    "kanji": "政治",
+    "romaji": "seiji",
+    "type": "noun",
+    "english": "politics",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "べんごし",
+    "kanji": "弁護士",
+    "romaji": "bengoshi",
+    "type": "noun",
+    "english": "lawyer",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "イギリス",
+    "kanji": "",
+    "romaji": "igirisu",
+    "type": "noun",
+    "english": "Britain",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "おかあさん",
+    "kanji": "お母さん",
+    "romaji": "okaasan",
+    "type": "noun",
+    "english": "mother",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "おとうさん",
+    "kanji": "お父さん",
+    "romaji": "otousan",
+    "type": "noun",
+    "english": "father",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "かんこく",
+    "kanji": "韓国",
+    "romaji": "kankoku",
+    "type": "noun",
+    "english": "Korea",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "けいざい",
+    "kanji": "経済",
+    "romaji": "keizai",
+    "type": "noun",
+    "english": "economics",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "コンピューター",
+    "kanji": "",
+    "romaji": "konpyuutaa",
+    "type": "noun",
+    "english": "computer",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちゅうごく",
+    "kanji": "中国",
+    "romaji": "chuugoku",
+    "type": "noun",
+    "english": "China",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "ビジネス",
+    "kanji": "",
+    "romaji": "bijinesu",
+    "type": "noun",
+    "english": "business",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "れきし",
+    "kanji": "歴史",
+    "romaji": "rekishi",
+    "type": "noun",
+    "english": "history",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "いもうと",
+    "kanji": "妹",
+    "romaji": "imouto",
+    "type": "noun",
+    "english": "younger sister",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "おとうと",
+    "kanji": "弟",
+    "romaji": "otouto",
+    "type": "noun",
+    "english": "younger brother",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "おにいさん",
+    "kanji": "お兄さん",
+    "romaji": "oniisan",
+    "type": "noun",
+    "english": "older brother",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "おねえさん",
+    "kanji": "お姉さん",
+    "romaji": "oneesan",
+    "type": "noun",
+    "english": "older sister",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "かいしゃいん",
+    "kanji": "会社員",
+    "romaji": "kaishain",
+    "type": "noun",
+    "english": "office worker",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぶんがく",
+    "kanji": "文学",
+    "romaji": "bungaku",
+    "type": "noun",
+    "english": "literature",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "いま",
+    "kanji": "今",
+    "romaji": "ima",
+    "type": "adverb",
+    "english": "now",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "あのう",
+    "kanji": "",
+    "romaji": "anou",
+    "type": "expression",
+    "english": "um...",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "そうです",
+    "kanji": "",
+    "romaji": "soudesu",
+    "type": "expression",
+    "english": "That’s right.",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "そうですか",
+    "kanji": "",
+    "romaji": "soudesuka",
+    "type": "expression",
+    "english": "I see.; Is that so?",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "はい",
+    "kanji": "",
+    "romaji": "hai",
+    "type": "expression",
+    "english": "yes",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "～ご",
+    "kanji": "~語",
+    "romaji": "~go",
+    "type": "suffix",
+    "english": "...language",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "～さい",
+    "kanji": "~歳",
+    "romaji": "~sai",
+    "type": "suffix",
+    "english": "...years old",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "～さん",
+    "kanji": "",
+    "romaji": "~san",
+    "type": "suffix",
+    "english": "Mr./Ms....",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "～じ",
+    "kanji": "~時",
+    "romaji": "~ji",
+    "type": "suffix",
+    "english": "o’clock",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "～じん",
+    "kanji": "~人",
+    "romaji": "~jin",
+    "type": "suffix",
+    "english": "...people",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "～ねんせい",
+    "kanji": "~年生",
+    "romaji": "~nensei",
+    "type": "suffix",
+    "english": "...year student",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "はん",
+    "kanji": "半",
+    "romaji": "han",
+    "type": "suffix",
+    "english": "half",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "～ばん",
+    "kanji": "~番",
+    "romaji": "~ban",
+    "type": "suffix",
+    "english": "number...",
+    "lesson": "L1",
+    "edition": 3
+  },
+  {
+    "hiragana": "あそこ",
+    "kanji": "",
+    "romaji": "asoko",
+    "type": "noun",
+    "english": "over there",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "あれ",
+    "kanji": "",
+    "romaji": "are",
+    "type": "noun",
+    "english": "that one (over there)",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "いくら",
+    "kanji": "",
+    "romaji": "ikura",
+    "type": "noun",
+    "english": "how much",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "えいご",
+    "kanji": "英語",
+    "romaji": "eigo",
+    "type": "noun",
+    "english": "English language",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "かさ",
+    "kanji": "傘",
+    "romaji": "kasa",
+    "type": "noun",
+    "english": "umbrella",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "かばん",
+    "kanji": "",
+    "romaji": "kaban",
+    "type": "noun",
+    "english": "bag",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぎんこう",
+    "kanji": "銀行",
+    "romaji": "ginkou",
+    "type": "noun",
+    "english": "bank",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "くつ",
+    "kanji": "靴",
+    "romaji": "kutsu",
+    "type": "noun",
+    "english": "shoes",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ここ",
+    "kanji": "",
+    "romaji": "koko",
+    "type": "noun",
+    "english": "here",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "これ",
+    "kanji": "",
+    "romaji": "kore",
+    "type": "noun",
+    "english": "this one",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "コンビニ",
+    "kanji": "",
+    "romaji": "konbini",
+    "type": "noun",
+    "english": "convenience store",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "さいふ",
+    "kanji": "財布",
+    "romaji": "saifu",
+    "type": "noun",
+    "english": "wallet",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "さかな",
+    "kanji": "魚",
+    "romaji": "sakana",
+    "type": "noun",
+    "english": "fish",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ジーンズ",
+    "kanji": "",
+    "romaji": "jiinzu",
+    "type": "noun",
+    "english": "jeans",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "じてんしゃ",
+    "kanji": "自転車",
+    "romaji": "jitensha",
+    "type": "noun",
+    "english": "bicycle",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "しんぶん",
+    "kanji": "新聞",
+    "romaji": "shinbun",
+    "type": "noun",
+    "english": "newspaper",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "スマホ",
+    "kanji": "",
+    "romaji": "sumaho",
+    "type": "noun",
+    "english": "smartphone; mobile",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "そこ",
+    "kanji": "",
+    "romaji": "soko",
+    "type": "noun",
+    "english": "there",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "それ",
+    "kanji": "",
+    "romaji": "sore",
+    "type": "noun",
+    "english": "that one",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "だれ",
+    "kanji": "",
+    "romaji": "dare",
+    "type": "noun",
+    "english": "who",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ティーシャツ",
+    "kanji": "Ｔシャツ",
+    "romaji": "tiishatsu",
+    "type": "noun",
+    "english": "T-shirt",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "トイレ",
+    "kanji": "",
+    "romaji": "toire",
+    "type": "noun",
+    "english": "toilet; restroom",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "とけい",
+    "kanji": "時計",
+    "romaji": "tokei",
+    "type": "noun",
+    "english": "watch; clock",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "どこ",
+    "kanji": "",
+    "romaji": "doko",
+    "type": "noun",
+    "english": "where",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "としょかん",
+    "kanji": "図書館",
+    "romaji": "toshokan",
+    "type": "noun",
+    "english": "library",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "どれ",
+    "kanji": "",
+    "romaji": "dore",
+    "type": "noun",
+    "english": "which one",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "とんかつ",
+    "kanji": "",
+    "romaji": "tonkatsu",
+    "type": "noun",
+    "english": "pork cutlet",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "にく",
+    "kanji": "肉",
+    "romaji": "niku",
+    "type": "noun",
+    "english": "meat",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ノート",
+    "kanji": "",
+    "romaji": "nooto",
+    "type": "noun",
+    "english": "notebook",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ペン",
+    "kanji": "",
+    "romaji": "pen",
+    "type": "noun",
+    "english": "pen",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぼうし",
+    "kanji": "帽子",
+    "romaji": "boushi",
+    "type": "noun",
+    "english": "hat; cap",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "メニュー",
+    "kanji": "",
+    "romaji": "menyuu",
+    "type": "noun",
+    "english": "menu",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "やさい",
+    "kanji": "野菜",
+    "romaji": "yasai",
+    "type": "noun",
+    "english": "vegetable",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ゆうびんきょく",
+    "kanji": "郵便局",
+    "romaji": "yuubinkyoku",
+    "type": "noun",
+    "english": "post office",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ほん",
+    "kanji": "本",
+    "romaji": "hon",
+    "type": "noun",
+    "english": "book",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "おいしい",
+    "kanji": "",
+    "romaji": "oishii",
+    "type": "i-adjective",
+    "english": "delicious",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "たかい",
+    "kanji": "高い",
+    "romaji": "takai",
+    "type": "i-adjective",
+    "english": "expensive; high",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "いらっしゃいませ",
+    "kanji": "",
+    "romaji": "irasshaimase",
+    "type": "expression",
+    "english": "Welcome (to our store).",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "おねがいします (～を)",
+    "kanji": "",
+    "romaji": "onegaishimasu (~o)",
+    "type": "expression",
+    "english": "..., please.",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "ください (～を)",
+    "kanji": "",
+    "romaji": "kudasai (~o)",
+    "type": "expression",
+    "english": "Please give me...",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "じゃあ",
+    "kanji": "",
+    "romaji": "jaa",
+    "type": "expression",
+    "english": "then... ; if that is the case,...",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "どうぞ",
+    "kanji": "",
+    "romaji": "douzo",
+    "type": "expression",
+    "english": "Please.; Here it is.",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "どうも",
+    "kanji": "",
+    "romaji": "doumo",
+    "type": "expression",
+    "english": "Thank you.",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "あの",
+    "kanji": "",
+    "romaji": "ano",
+    "type": "prefix",
+    "english": "that... (over there)",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "この",
+    "kanji": "",
+    "romaji": "kono",
+    "type": "prefix",
+    "english": "this...",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "その",
+    "kanji": "",
+    "romaji": "sono",
+    "type": "prefix",
+    "english": "that...",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "どの",
+    "kanji": "",
+    "romaji": "dono",
+    "type": "prefix",
+    "english": "which...",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "～えん",
+    "kanji": "~円",
+    "romaji": "~en",
+    "type": "suffix",
+    "english": "...yen",
+    "lesson": "L2",
+    "edition": 3
+  },
+  {
+    "hiragana": "アイスクリーム",
+    "kanji": "",
+    "romaji": "aisukuriimu",
+    "type": "noun",
+    "english": "ice cream",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "あさ",
+    "kanji": "朝",
+    "romaji": "asa",
+    "type": "noun",
+    "english": "morning",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "あさごはん",
+    "kanji": "朝ご飯",
+    "romaji": "asagohan",
+    "type": "noun",
+    "english": "breakfast",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "いえ",
+    "kanji": "家",
+    "romaji": "ie",
+    "type": "noun",
+    "english": "home; house",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "いつ",
+    "kanji": "",
+    "romaji": "itsu",
+    "type": "noun",
+    "english": "when",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "うち",
+    "kanji": "",
+    "romaji": "uchi",
+    "type": "noun",
+    "english": "home; house; my place",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "えいが",
+    "kanji": "映画",
+    "romaji": "eiga",
+    "type": "noun",
+    "english": "movie",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "おさけ",
+    "kanji": "お酒",
+    "romaji": "osake",
+    "type": "noun",
+    "english": "sake; alcoholic drink",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "おちゃ",
+    "kanji": "お茶",
+    "romaji": "ocha",
+    "type": "noun",
+    "english": "green tea",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "おんがく",
+    "kanji": "音楽",
+    "romaji": "ongaku",
+    "type": "noun",
+    "english": "music",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "がっこう",
+    "kanji": "学校",
+    "romaji": "gakkou",
+    "type": "noun",
+    "english": "school",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "カフェ",
+    "kanji": "",
+    "romaji": "kafe",
+    "type": "noun",
+    "english": "cafe",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "コーヒー",
+    "kanji": "",
+    "romaji": "koofii",
+    "type": "noun",
+    "english": "coffee",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "こんばん",
+    "kanji": "今晩",
+    "romaji": "konban",
+    "type": "noun",
+    "english": "tonight",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "さけ",
+    "kanji": "酒",
+    "romaji": "sake",
+    "type": "noun",
+    "english": "sake; alcohol",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ざっし",
+    "kanji": "雑誌",
+    "romaji": "zasshi",
+    "type": "noun",
+    "english": "magazine",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "しゅうまつ",
+    "kanji": "週末",
+    "romaji": "shuumatsu",
+    "type": "noun",
+    "english": "weekend",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "スポーツ",
+    "kanji": "",
+    "romaji": "supootsu",
+    "type": "noun",
+    "english": "sports",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちゃ",
+    "kanji": "茶",
+    "romaji": "cha",
+    "type": "noun",
+    "english": "green tea",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "デート",
+    "kanji": "",
+    "romaji": "deeto",
+    "type": "noun",
+    "english": "date (romantic, not calendar)",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "テニス",
+    "kanji": "",
+    "romaji": "tenisu",
+    "type": "noun",
+    "english": "tennis",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "テレビ",
+    "kanji": "",
+    "romaji": "terebi",
+    "type": "noun",
+    "english": "TV",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ばんごはん",
+    "kanji": "晩ご飯",
+    "romaji": "bangohan",
+    "type": "noun",
+    "english": "dinner",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ハンバーガー",
+    "kanji": "",
+    "romaji": "hanbaagaa",
+    "type": "noun",
+    "english": "hamburger",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひるごはん",
+    "kanji": "昼ご飯",
+    "romaji": "hirugohan",
+    "type": "noun",
+    "english": "lunch",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "まいにち",
+    "kanji": "毎日",
+    "romaji": "mainichi",
+    "type": "noun",
+    "english": "every day",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "まいばん",
+    "kanji": "毎晩",
+    "romaji": "maiban",
+    "type": "noun",
+    "english": "every night",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "みず",
+    "kanji": "水",
+    "romaji": "mizu",
+    "type": "noun",
+    "english": "water",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "あした",
+    "kanji": "明日",
+    "romaji": "ashita",
+    "type": "noun",
+    "english": "tomorrow",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "きょう",
+    "kanji": "今日",
+    "romaji": "kyou",
+    "type": "noun",
+    "english": "today",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "どようび",
+    "kanji": "土曜日",
+    "romaji": "doyoubi",
+    "type": "noun",
+    "english": "Saturday",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "にちようび",
+    "kanji": "日曜日",
+    "romaji": "nichiyoubi",
+    "type": "noun",
+    "english": "Sunday",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "いい",
+    "kanji": "",
+    "romaji": "ii",
+    "type": "i-adjective",
+    "english": "good",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "はやい",
+    "kanji": "早い",
+    "romaji": "hayai",
+    "type": "i-adjective",
+    "english": "early",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "いく",
+    "kanji": "行く",
+    "romaji": "iku",
+    "type": "u-verb",
+    "english": "to go",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "かえる",
+    "kanji": "帰る",
+    "romaji": "kaeru",
+    "type": "u-verb",
+    "english": "to go back; to return",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "きく",
+    "kanji": "聞く",
+    "romaji": "kiku",
+    "type": "u-verb",
+    "english": "to listen; to hear",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "のむ",
+    "kanji": "飲む",
+    "romaji": "nomu",
+    "type": "u-verb",
+    "english": "to drink",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "はなす",
+    "kanji": "話す",
+    "romaji": "hanasu",
+    "type": "u-verb",
+    "english": "to speak; to talk",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "よむ",
+    "kanji": "読む",
+    "romaji": "yomu",
+    "type": "u-verb",
+    "english": "to read",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "おきる",
+    "kanji": "起きる",
+    "romaji": "okiru",
+    "type": "ru-verb",
+    "english": "to get up",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "たべる",
+    "kanji": "食べる",
+    "romaji": "taberu",
+    "type": "ru-verb",
+    "english": "to eat",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ねる",
+    "kanji": "寝る",
+    "romaji": "neru",
+    "type": "ru-verb",
+    "english": "to sleep; to go to sleep",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "みる",
+    "kanji": "見る",
+    "romaji": "miru",
+    "type": "ru-verb",
+    "english": "to see; to look at; to watch",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "くる",
+    "kanji": "来る",
+    "romaji": "kuru",
+    "type": "irregular-verb",
+    "english": "to come",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "する",
+    "kanji": "",
+    "romaji": "suru",
+    "type": "irregular-verb",
+    "english": "to do",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "べんきょうする",
+    "kanji": "勉強する",
+    "romaji": "benkyousuru",
+    "type": "irregular-verb",
+    "english": "to study",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "あまり ＋ negative",
+    "kanji": "",
+    "romaji": "amari ＋ negative",
+    "type": "adverb",
+    "english": "not much",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぜんぜん ＋ negative",
+    "kanji": "全然",
+    "romaji": "zenzen ＋ negative",
+    "type": "adverb",
+    "english": "not at all",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "たいてい",
+    "kanji": "",
+    "romaji": "taitei",
+    "type": "adverb",
+    "english": "usually",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちょっと",
+    "kanji": "",
+    "romaji": "chotto",
+    "type": "adverb",
+    "english": "a little",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ときどき",
+    "kanji": "時-",
+    "romaji": "tokidoki",
+    "type": "adverb",
+    "english": "sometimes",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "よく",
+    "kanji": "",
+    "romaji": "yoku",
+    "type": "adverb",
+    "english": "often; much",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ええ",
+    "kanji": "",
+    "romaji": "ee",
+    "type": "expression",
+    "english": "yes",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "そうですね",
+    "kanji": "",
+    "romaji": "soudesune",
+    "type": "expression",
+    "english": "That’s right.; Let me see.",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "でも",
+    "kanji": "",
+    "romaji": "demo",
+    "type": "expression",
+    "english": "but",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "どうですか",
+    "kanji": "",
+    "romaji": "doudesuka",
+    "type": "expression",
+    "english": "How about... ?; How is... ?",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "～ごろ",
+    "kanji": "",
+    "romaji": "~goro",
+    "type": "suffix",
+    "english": "at about...",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "いち;いっ;ひと",
+    "kanji": "一",
+    "romaji": "ichi;i;hito",
+    "type": "kanji",
+    "english": "one",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "に;ふた",
+    "kanji": "二",
+    "romaji": "ni;futa",
+    "type": "kanji",
+    "english": "two",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "さん;みっ",
+    "kanji": "三",
+    "romaji": "san;mi",
+    "type": "kanji",
+    "english": "three",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "し;よ;よっ;よん",
+    "kanji": "四",
+    "romaji": "shi;yo;yo;yon",
+    "type": "kanji",
+    "english": "four",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "いつ;ご",
+    "kanji": "五",
+    "romaji": "itsu;go",
+    "type": "kanji",
+    "english": "five",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "むっ;ろく;ろっ",
+    "kanji": "六",
+    "romaji": "mu;roku;ro",
+    "type": "kanji",
+    "english": "six",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "しち;なな",
+    "kanji": "七",
+    "romaji": "shichi;nana",
+    "type": "kanji",
+    "english": "seven",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "はち;はっ;やっ",
+    "kanji": "八",
+    "romaji": "hachi;ha;ya",
+    "type": "kanji",
+    "english": "eight",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "きゅう;く;ここの",
+    "kanji": "九",
+    "romaji": "kyuu;ku;kokono",
+    "type": "kanji",
+    "english": "nine",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "じゅう;じゅっ;とお",
+    "kanji": "十",
+    "romaji": "juu;ju;too",
+    "type": "kanji",
+    "english": "ten",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひゃく;びゃく;ぴゃく",
+    "kanji": "百",
+    "romaji": "hyaku;byaku;pyaku",
+    "type": "kanji",
+    "english": "hundred",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "せん;ぜん",
+    "kanji": "千",
+    "romaji": "sen;zen",
+    "type": "kanji",
+    "english": "thousand",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "まん",
+    "kanji": "万",
+    "romaji": "man",
+    "type": "kanji",
+    "english": "ten thousand",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "えん",
+    "kanji": "円",
+    "romaji": "en",
+    "type": "kanji",
+    "english": "ten; circle",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "じ;とき",
+    "kanji": "時",
+    "romaji": "ji;toki",
+    "type": "kanji",
+    "english": "time",
+    "lesson": "L3",
+    "edition": 3
+  },
+  {
+    "hiragana": "いす",
+    "kanji": "",
+    "romaji": "isu",
+    "type": "noun",
+    "english": "chair",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "つくえ",
+    "kanji": "机",
+    "romaji": "tsukue",
+    "type": "noun",
+    "english": "desk",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "あいだ",
+    "kanji": "間",
+    "romaji": "aida",
+    "type": "noun",
+    "english": "between",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "あなた",
+    "kanji": "",
+    "romaji": "anata",
+    "type": "noun",
+    "english": "you",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "アルバイト",
+    "kanji": "",
+    "romaji": "arubaito",
+    "type": "noun",
+    "english": "part-time job",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "いちじかん",
+    "kanji": "一時間",
+    "romaji": "ichijikan",
+    "type": "noun",
+    "english": "one hour",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "いぬ",
+    "kanji": "犬",
+    "romaji": "inu",
+    "type": "noun",
+    "english": "dog",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "うえ",
+    "kanji": "上",
+    "romaji": "ue",
+    "type": "noun",
+    "english": "on",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "うしろ",
+    "kanji": "後ろ",
+    "romaji": "ushiro",
+    "type": "noun",
+    "english": "back",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "おてら",
+    "kanji": "お寺",
+    "romaji": "otera",
+    "type": "noun",
+    "english": "temple",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "かいもの",
+    "kanji": "買い物",
+    "romaji": "kaimono",
+    "type": "noun",
+    "english": "shopping",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "クラス",
+    "kanji": "",
+    "romaji": "kurasu",
+    "type": "noun",
+    "english": "class",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ゲーム",
+    "kanji": "",
+    "romaji": "geemu",
+    "type": "noun",
+    "english": "game",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "こうえん",
+    "kanji": "公園",
+    "romaji": "kouen",
+    "type": "noun",
+    "english": "park",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "こども",
+    "kanji": "子供",
+    "romaji": "kodomo",
+    "type": "noun",
+    "english": "child",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ごはん",
+    "kanji": "ご飯",
+    "romaji": "gohan",
+    "type": "noun",
+    "english": "rice; meal",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "した",
+    "kanji": "下",
+    "romaji": "shita",
+    "type": "noun",
+    "english": "under",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "しゃしん",
+    "kanji": "写真",
+    "romaji": "shashin",
+    "type": "noun",
+    "english": "picture; photograph",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "スーパー",
+    "kanji": "",
+    "romaji": "suupaa",
+    "type": "noun",
+    "english": "supermarket",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちかく",
+    "kanji": "近く",
+    "romaji": "chikaku",
+    "type": "noun",
+    "english": "near; nearby",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "てら",
+    "kanji": "寺",
+    "romaji": "tera",
+    "type": "noun",
+    "english": "temple",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "とき",
+    "kanji": "時",
+    "romaji": "toki",
+    "type": "noun",
+    "english": "when... ; at the time of...",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "となり",
+    "kanji": "隣",
+    "romaji": "tonari",
+    "type": "noun",
+    "english": "next",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "なか",
+    "kanji": "中",
+    "romaji": "naka",
+    "type": "noun",
+    "english": "inside",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ねこ",
+    "kanji": "猫",
+    "romaji": "neko",
+    "type": "noun",
+    "english": "cat",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "バスてい",
+    "kanji": "バス停",
+    "romaji": "basutei",
+    "type": "noun",
+    "english": "bus stop",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "はな",
+    "kanji": "花",
+    "romaji": "hana",
+    "type": "noun",
+    "english": "flower",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "パン",
+    "kanji": "",
+    "romaji": "pan",
+    "type": "noun",
+    "english": "bread",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひだり",
+    "kanji": "左",
+    "romaji": "hidari",
+    "type": "noun",
+    "english": "left",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひと",
+    "kanji": "人",
+    "romaji": "hito",
+    "type": "noun",
+    "english": "person",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "びょういん",
+    "kanji": "病院",
+    "romaji": "byouin",
+    "type": "noun",
+    "english": "hospital",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ホテル",
+    "kanji": "",
+    "romaji": "hoteru",
+    "type": "noun",
+    "english": "hotel",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ほんや",
+    "kanji": "本屋",
+    "romaji": "honya",
+    "type": "noun",
+    "english": "bookstore",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "まえ",
+    "kanji": "前",
+    "romaji": "mae",
+    "type": "noun",
+    "english": "front",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "まち",
+    "kanji": "町",
+    "romaji": "machi",
+    "type": "noun",
+    "english": "town; city",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "みぎ",
+    "kanji": "右",
+    "romaji": "migi",
+    "type": "noun",
+    "english": "right",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "レストラン",
+    "kanji": "",
+    "romaji": "resutoran",
+    "type": "noun",
+    "english": "restaurant",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "レポート",
+    "kanji": "",
+    "romaji": "repooto",
+    "type": "noun",
+    "english": "(term) paper",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "かようび",
+    "kanji": "火曜日",
+    "romaji": "kayoubi",
+    "type": "noun",
+    "english": "Tuesday",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "きのう",
+    "kanji": "昨日",
+    "romaji": "kinou",
+    "type": "noun",
+    "english": "yesterday",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "きんようび",
+    "kanji": "金曜日",
+    "romaji": "kinyoubi",
+    "type": "noun",
+    "english": "Friday",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "げつようび",
+    "kanji": "月曜日",
+    "romaji": "getsuyoubi",
+    "type": "noun",
+    "english": "Monday",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "すいようび",
+    "kanji": "水曜日",
+    "romaji": "suiyoubi",
+    "type": "noun",
+    "english": "Wednesday",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "せんしゅう",
+    "kanji": "先週",
+    "romaji": "senshuu",
+    "type": "noun",
+    "english": "last week",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "もくようび",
+    "kanji": "木曜日",
+    "romaji": "mokuyoubi",
+    "type": "noun",
+    "english": "Thursday",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "あう",
+    "kanji": "会う",
+    "romaji": "au",
+    "type": "u-verb",
+    "english": "to meet; to see (a person)",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ある",
+    "kanji": "",
+    "romaji": "aru",
+    "type": "u-verb",
+    "english": "there is...",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "かう",
+    "kanji": "買う",
+    "romaji": "kau",
+    "type": "u-verb",
+    "english": "to buy",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "かく",
+    "kanji": "書く",
+    "romaji": "kaku",
+    "type": "u-verb",
+    "english": "to write",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "とる",
+    "kanji": "撮る",
+    "romaji": "toru",
+    "type": "u-verb",
+    "english": "to take (a picture)",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "まつ",
+    "kanji": "待つ",
+    "romaji": "matsu",
+    "type": "u-verb",
+    "english": "to wait",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "わかる",
+    "kanji": "",
+    "romaji": "wakaru",
+    "type": "u-verb",
+    "english": "to understand",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "いる",
+    "kanji": "",
+    "romaji": "iru",
+    "type": "ru-verb",
+    "english": "(a person) is in... ; stays at...",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "それから",
+    "kanji": "",
+    "romaji": "sorekara",
+    "type": "adverb",
+    "english": "and then",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "だから",
+    "kanji": "",
+    "romaji": "dakara",
+    "type": "adverb",
+    "english": "so; therefore",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "たくさん",
+    "kanji": "",
+    "romaji": "takusan",
+    "type": "adverb",
+    "english": "many; a lot",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "どうして",
+    "kanji": "",
+    "romaji": "doushite",
+    "type": "adverb",
+    "english": "why",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひとりで",
+    "kanji": "一人で",
+    "romaji": "hitoride",
+    "type": "adverb",
+    "english": "alone",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ごめんなさい",
+    "kanji": "",
+    "romaji": "gomennasai",
+    "type": "expression",
+    "english": "I’m sorry.",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "もしもし",
+    "kanji": "",
+    "romaji": "moshimoshi",
+    "type": "expression",
+    "english": "Hello? (used on the phone)",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "～と",
+    "kanji": "",
+    "romaji": "~to",
+    "type": "particle",
+    "english": "together with (a person); and",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "～ぐらい",
+    "kanji": "",
+    "romaji": "~gurai",
+    "type": "suffix",
+    "english": "about (approximate measurement)",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "～じかん",
+    "kanji": "~時間",
+    "romaji": "~jikan",
+    "type": "suffix",
+    "english": "...hours",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "に;にち;ひ;び",
+    "kanji": "日",
+    "romaji": "ni;nichi;hi;bi",
+    "type": "kanji",
+    "english": "day; sun",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ほん;もと",
+    "kanji": "本",
+    "romaji": "hon;moto",
+    "type": "kanji",
+    "english": "book; basis",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "じん;にん;ひと",
+    "kanji": "人",
+    "romaji": "jin;nin;hito",
+    "type": "kanji",
+    "english": "person",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "がつ;げつ;つき",
+    "kanji": "月",
+    "romaji": "gatsu;getsu;tsuki",
+    "type": "kanji",
+    "english": "moon; month",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "か;ひ",
+    "kanji": "火",
+    "romaji": "ka;hi",
+    "type": "kanji",
+    "english": "fire",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "すい;みず",
+    "kanji": "水",
+    "romaji": "sui;mizu",
+    "type": "kanji",
+    "english": "water",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "き;もく",
+    "kanji": "木",
+    "romaji": "ki;moku",
+    "type": "kanji",
+    "english": "tree",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "かね;きん",
+    "kanji": "金",
+    "romaji": "kane;kin",
+    "type": "kanji",
+    "english": "gold; money",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "つち;ど",
+    "kanji": "土",
+    "romaji": "tsuchi;do",
+    "type": "kanji",
+    "english": "soil",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "よう",
+    "kanji": "曜",
+    "romaji": "you",
+    "type": "kanji",
+    "english": "weekday",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "うえ;じょう",
+    "kanji": "上",
+    "romaji": "ue;jou",
+    "type": "kanji",
+    "english": "up",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "か;した",
+    "kanji": "下",
+    "romaji": "ka;shita",
+    "type": "kanji",
+    "english": "down",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちゅう;なか",
+    "kanji": "中",
+    "romaji": "chuu;naka",
+    "type": "kanji",
+    "english": "middle",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "はん",
+    "kanji": "半",
+    "romaji": "han",
+    "type": "kanji",
+    "english": "half",
+    "lesson": "L4",
+    "edition": 3
+  },
+  {
+    "hiragana": "うみ",
+    "kanji": "海",
+    "romaji": "umi",
+    "type": "noun",
+    "english": "sea",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "エルサイズ",
+    "kanji": "Ｌサイズ",
+    "romaji": "erusaizu",
+    "type": "noun",
+    "english": "size L",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "おみやげ",
+    "kanji": "お土産",
+    "romaji": "omiyage",
+    "type": "noun",
+    "english": "souvenir",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "くだもの",
+    "kanji": "果物",
+    "romaji": "kudamono",
+    "type": "noun",
+    "english": "fruit",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "サーフィン",
+    "kanji": "",
+    "romaji": "saafin",
+    "type": "noun",
+    "english": "surfing",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "しゅくだい",
+    "kanji": "宿題",
+    "romaji": "shukudai",
+    "type": "noun",
+    "english": "homework",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "たべもの",
+    "kanji": "食べ物",
+    "romaji": "tabemono",
+    "type": "noun",
+    "english": "food",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "たんじょうび",
+    "kanji": "誕生日",
+    "romaji": "tanjoubi",
+    "type": "noun",
+    "english": "birthday",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "テスト",
+    "kanji": "",
+    "romaji": "tesuto",
+    "type": "noun",
+    "english": "test",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "てんき",
+    "kanji": "天気",
+    "romaji": "tenki",
+    "type": "noun",
+    "english": "weather",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "のみもの",
+    "kanji": "飲み物",
+    "romaji": "nomimono",
+    "type": "noun",
+    "english": "drink",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "バス",
+    "kanji": "",
+    "romaji": "basu",
+    "type": "noun",
+    "english": "bus",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "へや",
+    "kanji": "部屋",
+    "romaji": "heya",
+    "type": "noun",
+    "english": "room",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぼく",
+    "kanji": "僕",
+    "romaji": "boku",
+    "type": "noun",
+    "english": "I (used by men)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "みやげ",
+    "kanji": "土産",
+    "romaji": "miyage",
+    "type": "noun",
+    "english": "souvenir",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "やすみ",
+    "kanji": "休み",
+    "romaji": "yasumi",
+    "type": "noun",
+    "english": "holiday; day off; absence",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "りょこう",
+    "kanji": "旅行",
+    "romaji": "ryokou",
+    "type": "noun",
+    "english": "travel",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "あたらしい",
+    "kanji": "新しい",
+    "romaji": "atarashii",
+    "type": "i-adjective",
+    "english": "new",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "あつい",
+    "kanji": "熱い",
+    "romaji": "atsui",
+    "type": "i-adjective",
+    "english": "hot (thing)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "あつい",
+    "kanji": "暑い",
+    "romaji": "atsui",
+    "type": "i-adjective",
+    "english": "hot (weather)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "いそがしい",
+    "kanji": "忙しい",
+    "romaji": "isogashii",
+    "type": "i-adjective",
+    "english": "busy (people/days)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "おおきい",
+    "kanji": "大きい",
+    "romaji": "ookii",
+    "type": "i-adjective",
+    "english": "large",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "おもしろい",
+    "kanji": "面白い",
+    "romaji": "omoshiroi",
+    "type": "i-adjective",
+    "english": "interesting; funny",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "かっこいい",
+    "kanji": "",
+    "romaji": "kakkoii",
+    "type": "i-adjective",
+    "english": "good-looking",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "こわい",
+    "kanji": "怖い",
+    "romaji": "kowai",
+    "type": "i-adjective",
+    "english": "frightening",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "さむい",
+    "kanji": "寒い",
+    "romaji": "samui",
+    "type": "i-adjective",
+    "english": "cold (weather)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "たのしい",
+    "kanji": "楽しい",
+    "romaji": "tanoshii",
+    "type": "i-adjective",
+    "english": "fun",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちいさい",
+    "kanji": "小さい",
+    "romaji": "chiisai",
+    "type": "i-adjective",
+    "english": "small",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "つまらない",
+    "kanji": "",
+    "romaji": "tsumaranai",
+    "type": "i-adjective",
+    "english": "boring",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふるい",
+    "kanji": "古い",
+    "romaji": "furui",
+    "type": "i-adjective",
+    "english": "old (thing)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "むずかしい",
+    "kanji": "難しい",
+    "romaji": "muzukashii",
+    "type": "i-adjective",
+    "english": "difficult",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "やさしい",
+    "kanji": "",
+    "romaji": "yasashii",
+    "type": "i-adjective",
+    "english": "easy (problem); kind (person)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "やすい",
+    "kanji": "安い",
+    "romaji": "yasui",
+    "type": "i-adjective",
+    "english": "inexpensive; cheap (thing)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "きらい (な)",
+    "kanji": "嫌い",
+    "romaji": "kirai (na)",
+    "type": "na-adjective",
+    "english": "disgusted with; to dislike",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "きれい (な)",
+    "kanji": "",
+    "romaji": "kirei (na)",
+    "type": "na-adjective",
+    "english": "beautiful; clean",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "げんき (な)",
+    "kanji": "元気",
+    "romaji": "genki (na)",
+    "type": "na-adjective",
+    "english": "healthy; energetic",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "しずか (な)",
+    "kanji": "静か",
+    "romaji": "shizuka (na)",
+    "type": "na-adjective",
+    "english": "quiet",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "すき (な)",
+    "kanji": "好き",
+    "romaji": "suki (na)",
+    "type": "na-adjective",
+    "english": "fond of; to like",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "だいきらい (な)",
+    "kanji": "大嫌い",
+    "romaji": "daikirai (na)",
+    "type": "na-adjective",
+    "english": "to hate",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "だいすき (な)",
+    "kanji": "大好き",
+    "romaji": "daisuki (na)",
+    "type": "na-adjective",
+    "english": "very fond of; to love",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "にぎやか (な)",
+    "kanji": "",
+    "romaji": "nigiyaka (na)",
+    "type": "na-adjective",
+    "english": "lively",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひま (な)",
+    "kanji": "暇",
+    "romaji": "hima (na)",
+    "type": "na-adjective",
+    "english": "not busy; free (time)",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "およぐ",
+    "kanji": "泳ぐ",
+    "romaji": "oyogu",
+    "type": "u-verb",
+    "english": "to swim",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "きく",
+    "kanji": "聞く",
+    "romaji": "kiku",
+    "type": "u-verb",
+    "english": "to ask",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "のる",
+    "kanji": "乗る",
+    "romaji": "noru",
+    "type": "u-verb",
+    "english": "to ride; to board",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "やる",
+    "kanji": "",
+    "romaji": "yaru",
+    "type": "u-verb",
+    "english": "to do; to perform",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "でかける",
+    "kanji": "出かける",
+    "romaji": "dekakeru",
+    "type": "ru-verb",
+    "english": "to go out",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "いっしょに",
+    "kanji": "一緒に",
+    "romaji": "isshoni",
+    "type": "adverb",
+    "english": "together",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "すごく",
+    "kanji": "",
+    "romaji": "sugoku",
+    "type": "adverb",
+    "english": "extremely",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "とても",
+    "kanji": "",
+    "romaji": "totemo",
+    "type": "adverb",
+    "english": "very",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "だいじょうぶ",
+    "kanji": "大丈夫",
+    "romaji": "daijoubu",
+    "type": "expression",
+    "english": "It’s okay.; Not to worry.; Everything is under control.",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "どんな",
+    "kanji": "",
+    "romaji": "donna",
+    "type": "prefix",
+    "english": "what kind of...",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "～まい",
+    "kanji": "~枚",
+    "romaji": "~mai",
+    "type": "suffix",
+    "english": "[counter for flat objects]",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "さん;やま",
+    "kanji": "山",
+    "romaji": "san;yama",
+    "type": "kanji",
+    "english": "mountain",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "かわ;がわ",
+    "kanji": "川",
+    "romaji": "kawa;gawa",
+    "type": "kanji",
+    "english": "river",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "げん;がん;もと",
+    "kanji": "元",
+    "romaji": "gen;gan;moto",
+    "type": "kanji",
+    "english": "origin",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "き",
+    "kanji": "気",
+    "romaji": "ki",
+    "type": "kanji",
+    "english": "spirit",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "てん",
+    "kanji": "天",
+    "romaji": "ten",
+    "type": "kanji",
+    "english": "heaven",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "し;わたし",
+    "kanji": "私",
+    "romaji": "shi;watashi",
+    "type": "kanji",
+    "english": "I; private",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "いま;こん",
+    "kanji": "今",
+    "romaji": "ima;kon",
+    "type": "kanji",
+    "english": "now",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "た;だ",
+    "kanji": "田",
+    "romaji": "ta;da",
+    "type": "kanji",
+    "english": "rice field",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "おんな;じょ",
+    "kanji": "女",
+    "romaji": "onna;jo",
+    "type": "kanji",
+    "english": "woman",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "おとこ;だん",
+    "kanji": "男",
+    "romaji": "otoko;dan",
+    "type": "kanji",
+    "english": "man",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "けん;み",
+    "kanji": "見",
+    "romaji": "ken;mi",
+    "type": "kanji",
+    "english": "to see; to look at; to watch",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "い;ぎょう;こう",
+    "kanji": "行",
+    "romaji": "i;gyou;kou",
+    "type": "kanji",
+    "english": "to go",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "しょく;た",
+    "kanji": "食",
+    "romaji": "shoku;ta",
+    "type": "kanji",
+    "english": "to eat",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "いん;の",
+    "kanji": "飲",
+    "romaji": "in;no",
+    "type": "kanji",
+    "english": "to drink",
+    "lesson": "L5",
+    "edition": 3
+  },
+  {
+    "hiragana": "でんき",
+    "kanji": "電気",
+    "romaji": "denki",
+    "type": "noun",
+    "english": "electricity; light",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "まど",
+    "kanji": "窓",
+    "romaji": "mado",
+    "type": "noun",
+    "english": "window",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "こんしゅう",
+    "kanji": "今週",
+    "romaji": "konshuu",
+    "type": "noun",
+    "english": "this week",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "らいしゅう",
+    "kanji": "来週",
+    "romaji": "raishuu",
+    "type": "noun",
+    "english": "next week",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "らいねん",
+    "kanji": "来年",
+    "romaji": "rainen",
+    "type": "noun",
+    "english": "next year",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "エアコン",
+    "kanji": "",
+    "romaji": "eakon",
+    "type": "noun",
+    "english": "air conditioner",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "おかね",
+    "kanji": "お金",
+    "romaji": "okane",
+    "type": "noun",
+    "english": "money",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "かね",
+    "kanji": "金",
+    "romaji": "kane",
+    "type": "noun",
+    "english": "money",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "かんじ",
+    "kanji": "漢字",
+    "romaji": "kanji",
+    "type": "noun",
+    "english": "kanji; Chinese character",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "きょうかしょ",
+    "kanji": "教科書",
+    "romaji": "kyoukasho",
+    "type": "noun",
+    "english": "textbook",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "くに",
+    "kanji": "国",
+    "romaji": "kuni",
+    "type": "noun",
+    "english": "country; place of origin",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "シャワー",
+    "kanji": "",
+    "romaji": "shawaa",
+    "type": "noun",
+    "english": "shower",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "つぎ",
+    "kanji": "次",
+    "romaji": "tsugi",
+    "type": "noun",
+    "english": "next",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "でんしゃ",
+    "kanji": "電車",
+    "romaji": "densha",
+    "type": "noun",
+    "english": "train",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "にもつ",
+    "kanji": "荷物",
+    "romaji": "nimotsu",
+    "type": "noun",
+    "english": "baggage",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "パソコン",
+    "kanji": "",
+    "romaji": "pasokon",
+    "type": "noun",
+    "english": "personal computer",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "ページ",
+    "kanji": "",
+    "romaji": "peeji",
+    "type": "noun",
+    "english": "page",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "よる",
+    "kanji": "夜",
+    "romaji": "yoru",
+    "type": "noun",
+    "english": "night",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "たいへん (な)",
+    "kanji": "大変",
+    "romaji": "taihen (na)",
+    "type": "na-adjective",
+    "english": "tough (situation)",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "あそぶ",
+    "kanji": "遊ぶ",
+    "romaji": "asobu",
+    "type": "u-verb",
+    "english": "to play; to spend time pleasantly",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "いそぐ",
+    "kanji": "急ぐ",
+    "romaji": "isogu",
+    "type": "u-verb",
+    "english": "to hurry",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "かえす",
+    "kanji": "返す",
+    "romaji": "kaesu",
+    "type": "u-verb",
+    "english": "to return (a thing)",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "けす",
+    "kanji": "消す",
+    "romaji": "kesu",
+    "type": "u-verb",
+    "english": "to turn off; to erase",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "しぬ",
+    "kanji": "死ぬ",
+    "romaji": "shinu",
+    "type": "u-verb",
+    "english": "to die",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "すわる",
+    "kanji": "座る",
+    "romaji": "suwaru",
+    "type": "u-verb",
+    "english": "to sit down",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "たつ",
+    "kanji": "立つ",
+    "romaji": "tatsu",
+    "type": "u-verb",
+    "english": "to stand up",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "たばこをすう",
+    "kanji": "たばこを吸う",
+    "romaji": "tabakowosuu",
+    "type": "u-verb",
+    "english": "to smoke",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "つかう",
+    "kanji": "使う",
+    "romaji": "tsukau",
+    "type": "u-verb",
+    "english": "to use",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "てつだう",
+    "kanji": "手伝う",
+    "romaji": "tetsudau",
+    "type": "u-verb",
+    "english": "to help",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "はいる",
+    "kanji": "入る",
+    "romaji": "hairu",
+    "type": "u-verb",
+    "english": "to enter",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "もつ",
+    "kanji": "持つ",
+    "romaji": "motsu",
+    "type": "u-verb",
+    "english": "to carry; to hold",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "やすむ",
+    "kanji": "休む",
+    "romaji": "yasumu",
+    "type": "u-verb",
+    "english": "to be absent (from); to rest",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "あける",
+    "kanji": "開ける",
+    "romaji": "akeru",
+    "type": "ru-verb",
+    "english": "to open (something)",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "おしえる",
+    "kanji": "教える",
+    "romaji": "oshieru",
+    "type": "ru-verb",
+    "english": "to teach; to instruct",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "おりる",
+    "kanji": "降りる",
+    "romaji": "oriru",
+    "type": "ru-verb",
+    "english": "to get off",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "かりる",
+    "kanji": "借りる",
+    "romaji": "kariru",
+    "type": "ru-verb",
+    "english": "to borrow",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "しめる",
+    "kanji": "閉める",
+    "romaji": "shimeru",
+    "type": "ru-verb",
+    "english": "to close (something)",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "シャワーをあびる",
+    "kanji": "シャワ-を浴びる",
+    "romaji": "shawaawoabiru",
+    "type": "ru-verb",
+    "english": "to take a shower",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "つける",
+    "kanji": "",
+    "romaji": "tsukeru",
+    "type": "ru-verb",
+    "english": "to turn on",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "わすれる",
+    "kanji": "忘れる",
+    "romaji": "wasureru",
+    "type": "ru-verb",
+    "english": "to forget; to leave behind",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "つれてくる",
+    "kanji": "連れてくる",
+    "romaji": "tsuretekuru",
+    "type": "irregular-verb",
+    "english": "to bring (a person)",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "でんわする",
+    "kanji": "電話する",
+    "romaji": "denwasuru",
+    "type": "irregular-verb",
+    "english": "to call",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "もってくる",
+    "kanji": "持ってくる",
+    "romaji": "mottekuru",
+    "type": "irregular-verb",
+    "english": "to bring (a thing)",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "あとで",
+    "kanji": "後で",
+    "romaji": "atode",
+    "type": "adverb",
+    "english": "later on",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "すぐ",
+    "kanji": "",
+    "romaji": "sugu",
+    "type": "adverb",
+    "english": "right away",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "ゆっくり",
+    "kanji": "",
+    "romaji": "yukkuri",
+    "type": "adverb",
+    "english": "slowly; leisurely; unhurriedly",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "けっこうです",
+    "kanji": "結構です",
+    "romaji": "kekkoudesu",
+    "type": "expression",
+    "english": "That would be fine.; That wouldn’t be necessary.",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "ほんとうですか",
+    "kanji": "本当ですか",
+    "romaji": "hontoudesuka",
+    "type": "expression",
+    "english": "Really?",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "とう;ひがし",
+    "kanji": "東",
+    "romaji": "tou;higashi",
+    "type": "kanji",
+    "english": "east",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "さい;せい;にし",
+    "kanji": "西",
+    "romaji": "sai;sei;nishi",
+    "type": "kanji",
+    "english": "west",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "なん;みなみ",
+    "kanji": "南",
+    "romaji": "nan;minami",
+    "type": "kanji",
+    "english": "south",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "きた;ほく;ほっ",
+    "kanji": "北",
+    "romaji": "kita;hoku;ho",
+    "type": "kanji",
+    "english": "north",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "くち;ぐち;こう",
+    "kanji": "口",
+    "romaji": "kuchi;guchi;kou",
+    "type": "kanji",
+    "english": "mouth",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "しゅっ;しゅつ;だ;で",
+    "kanji": "出",
+    "romaji": "shu;shutsu;da;de",
+    "type": "kanji",
+    "english": "to exit",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "う;みぎ;ゆう",
+    "kanji": "右",
+    "romaji": "u;migi;yuu",
+    "type": "kanji",
+    "english": "right",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "さ;ひだり",
+    "kanji": "左",
+    "romaji": "sa;hidari",
+    "type": "kanji",
+    "english": "left",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふん;ぶん;ぷん",
+    "kanji": "分",
+    "romaji": "fun;bun;pun",
+    "type": "kanji",
+    "english": "minute; to divide",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "さき;せん",
+    "kanji": "先",
+    "romaji": "saki;sen",
+    "type": "kanji",
+    "english": "ahead",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "う;せい",
+    "kanji": "生",
+    "romaji": "u;sei",
+    "type": "kanji",
+    "english": "birth",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "おお;だい",
+    "kanji": "大",
+    "romaji": "oo;dai",
+    "type": "kanji",
+    "english": "big",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "がく;がっ;まな",
+    "kanji": "学",
+    "romaji": "gaku;ga;mana",
+    "type": "kanji",
+    "english": "learning",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "がい;そと",
+    "kanji": "外",
+    "romaji": "gai;soto",
+    "type": "kanji",
+    "english": "outside",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "くに;こく;ごく",
+    "kanji": "国",
+    "romaji": "kuni;koku;goku",
+    "type": "kanji",
+    "english": "country",
+    "lesson": "L6",
+    "edition": 3
+  },
+  {
+    "hiragana": "あに",
+    "kanji": "兄",
+    "romaji": "ani",
+    "type": "noun",
+    "english": "(my) older brother",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "あね",
+    "kanji": "姉",
+    "romaji": "ane",
+    "type": "noun",
+    "english": "(my) older sister",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "うた",
+    "kanji": "歌",
+    "romaji": "uta",
+    "type": "noun",
+    "english": "song",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "おじいさん",
+    "kanji": "",
+    "romaji": "ojiisan",
+    "type": "noun",
+    "english": "grandfather; old man",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "おばあさん",
+    "kanji": "",
+    "romaji": "obaasan",
+    "type": "noun",
+    "english": "grandmother; old woman",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かいしゃ",
+    "kanji": "会社",
+    "romaji": "kaisha",
+    "type": "noun",
+    "english": "company",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かぞく",
+    "kanji": "家族",
+    "romaji": "kazoku",
+    "type": "noun",
+    "english": "family",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "きょうだい",
+    "kanji": "兄弟",
+    "romaji": "kyoudai",
+    "type": "noun",
+    "english": "brothers and sisters",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "くるま",
+    "kanji": "車",
+    "romaji": "kuruma",
+    "type": "noun",
+    "english": "car",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "サークル",
+    "kanji": "",
+    "romaji": "saakuru",
+    "type": "noun",
+    "english": "club activity",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "しょくどう",
+    "kanji": "食堂",
+    "romaji": "shokudou",
+    "type": "noun",
+    "english": "cafeteria; dining commons",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちち",
+    "kanji": "父",
+    "romaji": "chichi",
+    "type": "noun",
+    "english": "(my) father",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "デパート",
+    "kanji": "",
+    "romaji": "depaato",
+    "type": "noun",
+    "english": "department store",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "はは",
+    "kanji": "母",
+    "romaji": "haha",
+    "type": "noun",
+    "english": "(my) mother",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "めがね",
+    "kanji": "眼鏡",
+    "romaji": "megane",
+    "type": "noun",
+    "english": "glasses",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かみ",
+    "kanji": "髪",
+    "romaji": "kami",
+    "type": "noun",
+    "english": "hair",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "くち",
+    "kanji": "口",
+    "romaji": "kuchi",
+    "type": "noun",
+    "english": "mouth",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "め",
+    "kanji": "目",
+    "romaji": "me",
+    "type": "noun",
+    "english": "eye",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "おとこのひと",
+    "kanji": "男の人",
+    "romaji": "otokonohito",
+    "type": "noun",
+    "english": "man",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "おんなのひと",
+    "kanji": "女の人",
+    "romaji": "onnanohito",
+    "type": "noun",
+    "english": "woman",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "あたまがいい",
+    "kanji": "頭がいい",
+    "romaji": "atamagaii",
+    "type": "i-adjective",
+    "english": "bright; smart; clever",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かわいい",
+    "kanji": "",
+    "romaji": "kawaii",
+    "type": "i-adjective",
+    "english": "cute",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "せがたかい",
+    "kanji": "背が高い",
+    "romaji": "segatakai",
+    "type": "i-adjective",
+    "english": "tall (stature)",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "せがひくい",
+    "kanji": "背が低い",
+    "romaji": "segahikui",
+    "type": "i-adjective",
+    "english": "short (stature)",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ながい",
+    "kanji": "長い",
+    "romaji": "nagai",
+    "type": "i-adjective",
+    "english": "long",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "はやい",
+    "kanji": "速い",
+    "romaji": "hayai",
+    "type": "i-adjective",
+    "english": "fast",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "みじかい",
+    "kanji": "短い",
+    "romaji": "mijikai",
+    "type": "i-adjective",
+    "english": "short (length)",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "しんせつ (な)",
+    "kanji": "親切",
+    "romaji": "shinsetsu (na)",
+    "type": "na-adjective",
+    "english": "kind",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "べんり (な)",
+    "kanji": "便利",
+    "romaji": "benri (na)",
+    "type": "na-adjective",
+    "english": "convenient",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "うたう",
+    "kanji": "歌う",
+    "romaji": "utau",
+    "type": "u-verb",
+    "english": "to sing",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かぶる",
+    "kanji": "",
+    "romaji": "kaburu",
+    "type": "u-verb",
+    "english": "to put on (a hat)",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "しる",
+    "kanji": "知る",
+    "romaji": "shiru",
+    "type": "u-verb",
+    "english": "to get to know",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "すむ",
+    "kanji": "住む",
+    "romaji": "sumu",
+    "type": "u-verb",
+    "english": "to live",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "はく",
+    "kanji": "",
+    "romaji": "haku",
+    "type": "u-verb",
+    "english": "to put on (items below your waist)",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "はたらく",
+    "kanji": "働く",
+    "romaji": "hataraku",
+    "type": "u-verb",
+    "english": "to work",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふとる",
+    "kanji": "太る",
+    "romaji": "futoru",
+    "type": "u-verb",
+    "english": "to gain weight; overweight",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かける (めがねを)",
+    "kanji": "かける (眼鏡を)",
+    "romaji": "kakeru (meganeo)",
+    "type": "ru-verb",
+    "english": "to put on (glasses)",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "きる",
+    "kanji": "着る",
+    "romaji": "kiru",
+    "type": "ru-verb",
+    "english": "to put on (clothes above your waist)",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "やせる",
+    "kanji": "",
+    "romaji": "yaseru",
+    "type": "ru-verb",
+    "english": "to lose weight",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "けっこんする",
+    "kanji": "結婚する",
+    "romaji": "kekkonsuru",
+    "type": "irregular-verb",
+    "english": "to get married",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "なにも ＋ negative",
+    "kanji": "何も",
+    "romaji": "nanimo ＋ negative",
+    "type": "adverb",
+    "english": "not... anything",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "べつに ＋ negative",
+    "kanji": "別に",
+    "romaji": "betsuni ＋ negative",
+    "type": "adverb",
+    "english": "nothing in particular",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "もちろん",
+    "kanji": "",
+    "romaji": "mochiron",
+    "type": "adverb",
+    "english": "of course",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "よかったら",
+    "kanji": "",
+    "romaji": "yokattara",
+    "type": "adverb",
+    "english": "if you like",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "しっています",
+    "kanji": "知っています",
+    "romaji": "shitteimasu",
+    "type": "expression",
+    "english": "I know",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "しりません",
+    "kanji": "知りません",
+    "romaji": "shirimasen",
+    "type": "expression",
+    "english": "I do not know",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひとり",
+    "kanji": "一人",
+    "romaji": "hitori",
+    "type": "expression",
+    "english": "one person",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふたり",
+    "kanji": "二人",
+    "romaji": "futari",
+    "type": "expression",
+    "english": "two people",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふとっています",
+    "kanji": "太っています",
+    "romaji": "futotteimasu",
+    "type": "expression",
+    "english": "to be on the heavy side",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "やせています",
+    "kanji": "",
+    "romaji": "yaseteimasu",
+    "type": "expression",
+    "english": "to be thin",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "～が",
+    "kanji": "",
+    "romaji": "~ga",
+    "type": "particle",
+    "english": "..., but",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "～にん",
+    "kanji": "~人",
+    "romaji": "~nin",
+    "type": "suffix",
+    "english": "[counter for people]",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "きょう",
+    "kanji": "京",
+    "romaji": "kyou",
+    "type": "kanji",
+    "english": "capital",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "こ;し",
+    "kanji": "子",
+    "romaji": "ko;shi",
+    "type": "kanji",
+    "english": "child",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "しょう;ちい",
+    "kanji": "小",
+    "romaji": "shou;chii",
+    "type": "kanji",
+    "english": "small",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "あ;かい",
+    "kanji": "会",
+    "romaji": "a;kai",
+    "type": "kanji",
+    "english": "to meet",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "しゃ;じゃ",
+    "kanji": "社",
+    "romaji": "sha;ja",
+    "type": "kanji",
+    "english": "company",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ちち;とう;ふ",
+    "kanji": "父",
+    "romaji": "chichi;tou;fu",
+    "type": "kanji",
+    "english": "father",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かあ;はは;ぼ",
+    "kanji": "母",
+    "romaji": "kaa;haha;bo",
+    "type": "kanji",
+    "english": "mother",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "こう;たか",
+    "kanji": "高",
+    "romaji": "kou;taka",
+    "type": "kanji",
+    "english": "high",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "こう",
+    "kanji": "校",
+    "romaji": "kou",
+    "type": "kanji",
+    "english": "school",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "まい",
+    "kanji": "毎",
+    "romaji": "mai",
+    "type": "kanji",
+    "english": "every",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ご",
+    "kanji": "語",
+    "romaji": "go",
+    "type": "kanji",
+    "english": "word",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぶん",
+    "kanji": "文",
+    "romaji": "bun",
+    "type": "kanji",
+    "english": "sentence",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "かえ;き",
+    "kanji": "帰",
+    "romaji": "kae;ki",
+    "type": "kanji",
+    "english": "to return",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "い;いり;にゅう;はい",
+    "kanji": "入",
+    "romaji": "i;iri;nyuu;hai",
+    "type": "kanji",
+    "english": "to enter",
+    "lesson": "L7",
+    "edition": 3
+  },
+  {
+    "hiragana": "あさって",
+    "kanji": "",
+    "romaji": "asatte",
+    "type": "noun",
+    "english": "the day after tomorrow",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "こんげつ",
+    "kanji": "今月",
+    "romaji": "kongetsu",
+    "type": "noun",
+    "english": "this month",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "らいげつ",
+    "kanji": "来月",
+    "romaji": "raigetsu",
+    "type": "noun",
+    "english": "next month",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "あめ",
+    "kanji": "雨",
+    "romaji": "ame",
+    "type": "noun",
+    "english": "rain",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "おふろ",
+    "kanji": "お風呂",
+    "romaji": "ofuro",
+    "type": "noun",
+    "english": "bath",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "カメラ",
+    "kanji": "",
+    "romaji": "kamera",
+    "type": "noun",
+    "english": "camera",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "カラオケ",
+    "kanji": "",
+    "romaji": "karaoke",
+    "type": "noun",
+    "english": "karaoke",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "きおん",
+    "kanji": "気温",
+    "romaji": "kion",
+    "type": "noun",
+    "english": "temperature (weather)",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "くもり",
+    "kanji": "曇り",
+    "romaji": "kumori",
+    "type": "noun",
+    "english": "cloudy weather",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "けさ",
+    "kanji": "今朝",
+    "romaji": "kesa",
+    "type": "noun",
+    "english": "this morning",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "しごと",
+    "kanji": "仕事",
+    "romaji": "shigoto",
+    "type": "noun",
+    "english": "job; work; occupation",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "スペイン",
+    "kanji": "",
+    "romaji": "supein",
+    "type": "noun",
+    "english": "Spain",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "てんきよほう",
+    "kanji": "天気予報",
+    "romaji": "tenkiyohou",
+    "type": "noun",
+    "english": "weather forecast",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ところ",
+    "kanji": "所",
+    "romaji": "tokoro",
+    "type": "noun",
+    "english": "place",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "トマト",
+    "kanji": "",
+    "romaji": "tomato",
+    "type": "noun",
+    "english": "tomato",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "なつ",
+    "kanji": "夏",
+    "romaji": "natsu",
+    "type": "noun",
+    "english": "summer",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "なにか",
+    "kanji": "何か",
+    "romaji": "nanika",
+    "type": "noun",
+    "english": "something",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "パーティー",
+    "kanji": "",
+    "romaji": "paatii",
+    "type": "noun",
+    "english": "party",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "バーベキュー",
+    "kanji": "",
+    "romaji": "baabekyuu",
+    "type": "noun",
+    "english": "barbecue",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "はし",
+    "kanji": "",
+    "romaji": "hashi",
+    "type": "noun",
+    "english": "chopsticks",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "はれ",
+    "kanji": "晴れ",
+    "romaji": "hare",
+    "type": "noun",
+    "english": "sunny weather",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふゆ",
+    "kanji": "冬",
+    "romaji": "fuyu",
+    "type": "noun",
+    "english": "winter",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふろ",
+    "kanji": "風呂",
+    "romaji": "furo",
+    "type": "noun",
+    "english": "bath",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ホームステイ",
+    "kanji": "",
+    "romaji": "hoomusutei",
+    "type": "noun",
+    "english": "homestay; living with a local family",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "まいしゅう",
+    "kanji": "毎週",
+    "romaji": "maishuu",
+    "type": "noun",
+    "english": "every week",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "みんなで",
+    "kanji": "",
+    "romaji": "minnade",
+    "type": "noun",
+    "english": "all (of the people) together",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "じょうず (な)",
+    "kanji": "上手",
+    "romaji": "jouzu (na)",
+    "type": "na-adjective",
+    "english": "skillful; good at...",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "へた (な)",
+    "kanji": "下手",
+    "romaji": "heta (na)",
+    "type": "na-adjective",
+    "english": "clumsy; poor at...",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ゆうめい (な)",
+    "kanji": "有名",
+    "romaji": "yuumei (na)",
+    "type": "na-adjective",
+    "english": "famous",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "あらう",
+    "kanji": "洗う",
+    "romaji": "arau",
+    "type": "u-verb",
+    "english": "to wash",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "いう",
+    "kanji": "言う",
+    "romaji": "iu",
+    "type": "u-verb",
+    "english": "to say",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "いる",
+    "kanji": "",
+    "romaji": "iru",
+    "type": "u-verb",
+    "english": "to need",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "おそくなる",
+    "kanji": "遅くなる",
+    "romaji": "osokunaru",
+    "type": "u-verb",
+    "english": "to be late",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "おふろにはいる",
+    "kanji": "お風呂に入る",
+    "romaji": "ofuronihairu",
+    "type": "u-verb",
+    "english": "to take a bath",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "おもう",
+    "kanji": "思う",
+    "romaji": "omou",
+    "type": "u-verb",
+    "english": "to think",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "つくる",
+    "kanji": "作る",
+    "romaji": "tsukuru",
+    "type": "u-verb",
+    "english": "to make",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふる (あめ/ゆきが)",
+    "kanji": "降る (雨/雪が)",
+    "romaji": "furu (ame/yukiga)",
+    "type": "u-verb",
+    "english": "(rain/snow) falls",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふろにはいる",
+    "kanji": "風呂に入る",
+    "romaji": "furonihairu",
+    "type": "u-verb",
+    "english": "to take a bath",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "もっていく",
+    "kanji": "持っていく",
+    "romaji": "motteiku",
+    "type": "u-verb",
+    "english": "to take (a thing)",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "きる",
+    "kanji": "切る",
+    "romaji": "kiru",
+    "type": "u-verb",
+    "english": "to cut",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "すてる",
+    "kanji": "捨てる",
+    "romaji": "suteru",
+    "type": "ru-verb",
+    "english": "to throw away",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "はじめる",
+    "kanji": "始める",
+    "romaji": "hajimeru",
+    "type": "ru-verb",
+    "english": "to begin",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "うんてんする",
+    "kanji": "運転する",
+    "romaji": "untensuru",
+    "type": "irregular-verb",
+    "english": "to drive",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "せんたくする",
+    "kanji": "洗濯する",
+    "romaji": "sentakusuru",
+    "type": "irregular-verb",
+    "english": "to do laundry",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "そうじする",
+    "kanji": "掃除する",
+    "romaji": "soujisuru",
+    "type": "irregular-verb",
+    "english": "to clean",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "りょうりする",
+    "kanji": "料理する",
+    "romaji": "ryourisuru",
+    "type": "irregular-verb",
+    "english": "to cook",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "どう",
+    "kanji": "",
+    "romaji": "dou",
+    "type": "adverb",
+    "english": "how",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "まだ ＋ negative",
+    "kanji": "",
+    "romaji": "mada ＋ negative",
+    "type": "adverb",
+    "english": "not... yet",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "おそく",
+    "kanji": "遅く",
+    "romaji": "osoku",
+    "type": "adverb",
+    "english": "(do something) late",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "いつも",
+    "kanji": "",
+    "romaji": "itsumo",
+    "type": "adverb",
+    "english": "always",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ううん",
+    "kanji": "",
+    "romaji": "uun",
+    "type": "expression",
+    "english": "uh-uh; no",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "うん",
+    "kanji": "",
+    "romaji": "un",
+    "type": "expression",
+    "english": "uh-huh; yes",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "かんぱい",
+    "kanji": "乾杯",
+    "romaji": "kanpai",
+    "type": "expression",
+    "english": "Cheers! (a toast)",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "ざんねん (ですね)",
+    "kanji": "残念 (ですね)",
+    "romaji": "zannen (desune)",
+    "type": "expression",
+    "english": "That’s too bad.",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "～について",
+    "kanji": "",
+    "romaji": "~nitsuite",
+    "type": "particle",
+    "english": "about... ; concerning...",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "～ど",
+    "kanji": "~度",
+    "romaji": "~do",
+    "type": "suffix",
+    "english": "...degrees (temperature)",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "いん",
+    "kanji": "員",
+    "romaji": "in",
+    "type": "kanji",
+    "english": "member",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "あたら;しん",
+    "kanji": "新",
+    "romaji": "atara;shin",
+    "type": "kanji",
+    "english": "new",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "き;ぶん",
+    "kanji": "聞",
+    "romaji": "ki;bun",
+    "type": "kanji",
+    "english": "to listen",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "さく;つく",
+    "kanji": "作",
+    "romaji": "saku;tsuku",
+    "type": "kanji",
+    "english": "to make",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "し",
+    "kanji": "仕",
+    "romaji": "shi",
+    "type": "kanji",
+    "english": "to serve",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "こと;ごと;じ",
+    "kanji": "事",
+    "romaji": "koto;goto;ji",
+    "type": "kanji",
+    "english": "thing",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "でん",
+    "kanji": "電",
+    "romaji": "den",
+    "type": "kanji",
+    "english": "electricity",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "くるま;しゃ",
+    "kanji": "車",
+    "romaji": "kuruma;sha",
+    "type": "kanji",
+    "english": "car",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "きゅう;やす",
+    "kanji": "休",
+    "romaji": "kyuu;yasu",
+    "type": "kanji",
+    "english": "to rest",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "い;げん",
+    "kanji": "言",
+    "romaji": "i;gen",
+    "type": "kanji",
+    "english": "to say",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "どく;よ",
+    "kanji": "読",
+    "romaji": "doku;yo",
+    "type": "kanji",
+    "english": "to read",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "おも;し",
+    "kanji": "思",
+    "romaji": "omo;shi",
+    "type": "kanji",
+    "english": "to think",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "じ;つぎ",
+    "kanji": "次",
+    "romaji": "ji;tsugi",
+    "type": "kanji",
+    "english": "next",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "なに;なん",
+    "kanji": "何",
+    "romaji": "nani;nan",
+    "type": "kanji",
+    "english": "what",
+    "lesson": "L8",
+    "edition": 3
+  },
+  {
+    "hiragana": "きょねん",
+    "kanji": "去年",
+    "romaji": "kyonen",
+    "type": "noun",
+    "english": "last year",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "せんげつ",
+    "kanji": "先月",
+    "romaji": "sengetsu",
+    "type": "noun",
+    "english": "last month",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "いいこ",
+    "kanji": "いい子",
+    "romaji": "iiko",
+    "type": "noun",
+    "english": "good child",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "いつつ",
+    "kanji": "五つ",
+    "romaji": "itsutsu",
+    "type": "noun",
+    "english": "five",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "いろ",
+    "kanji": "色",
+    "romaji": "iro",
+    "type": "noun",
+    "english": "color",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "おべんとう",
+    "kanji": "お弁当",
+    "romaji": "obentou",
+    "type": "noun",
+    "english": "boxed lunch",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "かぶき",
+    "kanji": "歌舞伎",
+    "romaji": "kabuki",
+    "type": "noun",
+    "english": "Kabuki; traditional Japanese theatrical art",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ギター",
+    "kanji": "",
+    "romaji": "gitaa",
+    "type": "noun",
+    "english": "guitar",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "くすり",
+    "kanji": "薬",
+    "romaji": "kusuri",
+    "type": "noun",
+    "english": "medicine",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ここのつ",
+    "kanji": "九つ",
+    "romaji": "kokonotsu",
+    "type": "noun",
+    "english": "nine",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "コンサート",
+    "kanji": "",
+    "romaji": "konsaato",
+    "type": "noun",
+    "english": "concert",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "こんど",
+    "kanji": "今度",
+    "romaji": "kondo",
+    "type": "noun",
+    "english": "near future",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "さくぶん",
+    "kanji": "作文",
+    "romaji": "sakubun",
+    "type": "noun",
+    "english": "essay; composition",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "しけん",
+    "kanji": "試験",
+    "romaji": "shiken",
+    "type": "noun",
+    "english": "exam",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "スキー",
+    "kanji": "",
+    "romaji": "sukii",
+    "type": "noun",
+    "english": "ski",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "たんご",
+    "kanji": "単語",
+    "romaji": "tango",
+    "type": "noun",
+    "english": "word; vocabulary",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "チケット",
+    "kanji": "",
+    "romaji": "chiketto",
+    "type": "noun",
+    "english": "ticket",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "てがみ",
+    "kanji": "手紙",
+    "romaji": "tegami",
+    "type": "noun",
+    "english": "letter",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "とお",
+    "kanji": "十",
+    "romaji": "too",
+    "type": "noun",
+    "english": "ten",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ななつ",
+    "kanji": "七つ",
+    "romaji": "nanatsu",
+    "type": "noun",
+    "english": "seven",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ピアノ",
+    "kanji": "",
+    "romaji": "piano",
+    "type": "noun",
+    "english": "piano",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひとつ",
+    "kanji": "一つ",
+    "romaji": "hitotsu",
+    "type": "noun",
+    "english": "one",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ふたつ",
+    "kanji": "二つ",
+    "romaji": "futatsu",
+    "type": "noun",
+    "english": "two",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "べんとう",
+    "kanji": "弁当",
+    "romaji": "bentou",
+    "type": "noun",
+    "english": "boxed lunch",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "みっつ",
+    "kanji": "三つ",
+    "romaji": "mittsu",
+    "type": "noun",
+    "english": "three",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "むっつ",
+    "kanji": "六つ",
+    "romaji": "muttsu",
+    "type": "noun",
+    "english": "six",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "メール",
+    "kanji": "",
+    "romaji": "meeru",
+    "type": "noun",
+    "english": "e-mail",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "やっつ",
+    "kanji": "八つ",
+    "romaji": "yattsu",
+    "type": "noun",
+    "english": "eight",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "よっつ",
+    "kanji": "四つ",
+    "romaji": "yottsu",
+    "type": "noun",
+    "english": "four",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "びょうき",
+    "kanji": "病気",
+    "romaji": "byouki",
+    "type": "noun",
+    "english": "illness; sickness",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ピザ",
+    "kanji": "",
+    "romaji": "piza",
+    "type": "noun",
+    "english": "pizza",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "さびしい",
+    "kanji": "寂しい",
+    "romaji": "sabishii",
+    "type": "i-adjective",
+    "english": "lonely",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "わかい",
+    "kanji": "若い",
+    "romaji": "wakai",
+    "type": "i-adjective",
+    "english": "young",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "あおい",
+    "kanji": "青い",
+    "romaji": "aoi",
+    "type": "i-adjective",
+    "english": "blue",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "あかい",
+    "kanji": "赤い",
+    "romaji": "akai",
+    "type": "i-adjective",
+    "english": "red",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "くろい",
+    "kanji": "黒い",
+    "romaji": "kuroi",
+    "type": "i-adjective",
+    "english": "black",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "しろい",
+    "kanji": "白い",
+    "romaji": "shiroi",
+    "type": "i-adjective",
+    "english": "white",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "いじわる (な)",
+    "kanji": "意地悪",
+    "romaji": "ijiwaru (na)",
+    "type": "na-adjective",
+    "english": "mean-spirited",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "おどる",
+    "kanji": "踊る",
+    "romaji": "odoru",
+    "type": "u-verb",
+    "english": "to dance",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "おわる",
+    "kanji": "終わる",
+    "romaji": "owaru",
+    "type": "u-verb",
+    "english": "(something) ends",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "くすりをのむ",
+    "kanji": "薬を飲む",
+    "romaji": "kusurionomu",
+    "type": "u-verb",
+    "english": "to take medicine",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "にんきがある",
+    "kanji": "人気がある",
+    "romaji": "ninkigaaru",
+    "type": "u-verb",
+    "english": "to be popular",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "はじまる",
+    "kanji": "始まる",
+    "romaji": "hajimaru",
+    "type": "u-verb",
+    "english": "(something) begins",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ひく",
+    "kanji": "弾く",
+    "romaji": "hiku",
+    "type": "u-verb",
+    "english": "to play (a string instrument or piano)",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "もらう",
+    "kanji": "",
+    "romaji": "morau",
+    "type": "u-verb",
+    "english": "to get (from somebody)",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "おぼえる",
+    "kanji": "覚える",
+    "romaji": "oboeru",
+    "type": "ru-verb",
+    "english": "to memorize",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "でる",
+    "kanji": "出る",
+    "romaji": "deru",
+    "type": "ru-verb",
+    "english": "to appear; to attend; to exit",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "うんどうする",
+    "kanji": "運動する",
+    "romaji": "undousuru",
+    "type": "irregular-verb",
+    "english": "to exercise",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "さんぽする",
+    "kanji": "散歩する",
+    "romaji": "sanposuru",
+    "type": "irregular-verb",
+    "english": "to take a walk",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぜひ",
+    "kanji": "是非",
+    "romaji": "zehi",
+    "type": "adverb",
+    "english": "by all means",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "そう",
+    "kanji": "",
+    "romaji": "sou",
+    "type": "adverb",
+    "english": "(I think) so",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ところで",
+    "kanji": "",
+    "romaji": "tokorode",
+    "type": "adverb",
+    "english": "by the way",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "もう",
+    "kanji": "",
+    "romaji": "mou",
+    "type": "adverb",
+    "english": "already",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "みんな",
+    "kanji": "",
+    "romaji": "minna",
+    "type": "adverb",
+    "english": "all",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "～まで",
+    "kanji": "",
+    "romaji": "~made",
+    "type": "particle",
+    "english": "to (a place/a time)",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "～から",
+    "kanji": "",
+    "romaji": "~kara",
+    "type": "particle",
+    "english": "from...",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ご",
+    "kanji": "午",
+    "romaji": "go",
+    "type": "kanji",
+    "english": "noon",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "あと;うし;ご",
+    "kanji": "後",
+    "romaji": "ato;ushi;go",
+    "type": "kanji",
+    "english": "after",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "ぜん;まえ",
+    "kanji": "前",
+    "romaji": "zen;mae",
+    "type": "kanji",
+    "english": "before",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "な;めい",
+    "kanji": "名",
+    "romaji": "na;mei",
+    "type": "kanji",
+    "english": "name",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "しろ;はく",
+    "kanji": "白",
+    "romaji": "shiro;haku",
+    "type": "kanji",
+    "english": "white",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "あめ;う",
+    "kanji": "雨",
+    "romaji": "ame;u",
+    "type": "kanji",
+    "english": "rain",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "か;しょ",
+    "kanji": "書",
+    "romaji": "ka;sho",
+    "type": "kanji",
+    "english": "to write",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "とも;ゆう",
+    "kanji": "友",
+    "romaji": "tomo;yuu",
+    "type": "kanji",
+    "english": "friend",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "あいだ;かん",
+    "kanji": "間",
+    "romaji": "aida;kan",
+    "type": "kanji",
+    "english": "between",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "いえ;か",
+    "kanji": "家",
+    "romaji": "ie;ka",
+    "type": "kanji",
+    "english": "house",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "はな;はなし;わ",
+    "kanji": "話",
+    "romaji": "hana;hanashi;wa",
+    "type": "kanji",
+    "english": "to speak",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "しょう;すく;すこ",
+    "kanji": "少",
+    "romaji": "shou;suku;suko",
+    "type": "kanji",
+    "english": "little",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "こ;ふる",
+    "kanji": "古",
+    "romaji": "ko;furu",
+    "type": "kanji",
+    "english": "old",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "し;ち",
+    "kanji": "知",
+    "romaji": "shi;chi",
+    "type": "kanji",
+    "english": "to know",
+    "lesson": "L9",
+    "edition": 3
+  },
+  {
+    "hiragana": "き;く;こ;らい",
+    "kanji": "来",
+    "romaji": "ki;ku;ko;rai",
+    "type": "kanji",
+    "english": "to come",
+    "lesson": "L9",
+    "edition": 3
+  }
+]
