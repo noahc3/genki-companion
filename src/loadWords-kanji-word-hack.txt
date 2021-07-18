@@ -1,0 +1,117 @@
+loadWords() {
+        fetch(
+            "words.json", 
+            {
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                }
+            }
+        ).then((response) => {
+            return response.json();
+        }).then((json) => {
+            const parsedWords = {};
+
+            json.forEach(element => {
+                populate(parsedWords, [element.edition, element.lesson, element.type, element.romaji], element);
+            });
+
+            const validChars = [
+                "あ", "い", "う", "え", "お",
+                "か", "き", "く", "け", "こ",
+                "さ", "し", "す", "せ", "そ",
+                "た", "ち", "つ", "て", "と",
+                "な", "に", "ぬ", "ね", "の",
+                "は", "ひ", "ふ", "へ", "ほ",
+                "ま", "み", "む", "め", "も",
+                "や", "ゆ", "よ",
+                "ら", "り", "る", "れ", "ろ",
+                "わ", "を",
+                "ん",
+                "が", "ぎ", "ぐ", "げ", "ご",
+                "ざ", "じ", "ず", "ぜ", "ぞ",
+                "だ", "ぢ", "づ", "で", "ど",
+                "ば", "び", "ぶ", "べ", "ぼ",
+                "ぱ", "ぴ", "ぷ", "ぺ", "ぽ",
+            
+                "ぁ", "ぃ", "ぅ", "ぇ", "ぉ",
+                "っ",
+            
+                "ア", "イ", "ウ", "エ", "オ",
+                "カ", "キ", "ク", "ケ", "コ",
+                "サ", "シ", "ス", "セ", "ソ",
+                "タ", "チ", "ツ", "テ", "ト",
+                "ナ", "ニ", "ヌ", "ネ", "ノ",
+                "ハ", "ヒ", "フ", "ヘ", "ホ",
+                "マ", "ミ", "ム", "メ", "モ",
+                "ヤ", "ユ", "ヨ",
+                "ラ", "リ", "ル", "レ", "ロ",
+                "ワ", "ヲ",
+                "ン",
+                "ガ", "ギ", "グ", "ゲ", "ゴ",
+                "ザ", "ジ", "ズ", "ゼ", "ゾ",
+                "ダ", "ヂ", "ヅ", "デ", "ド",
+                "バ", "ビ", "ブ", "ベ", "ボ",
+                "パ", "ピ", "プ", "ペ", "ポ",
+            
+                "ァ", "ィ", "ゥ", "ェ", "ォ",
+                "ー", "ッ"
+            ];
+
+            let readableKanjiWords = [];
+
+            Object.keys(parsedWords[3]).forEach(lesson => {
+                Object.keys(parsedWords[3][lesson]).forEach(type => {
+                    if (type !== "kanji") {
+                        Object.keys(parsedWords[3][lesson][type]).forEach(word => {
+                            let kanjiWord = parsedWords[3][lesson][type][word].kanji;
+                            if (kanjiWord.length != 0) {
+                                validChars.forEach(kana => {
+                                    kanjiWord = kanjiWord.replace(kana, "");
+                                });
+                                Object.keys(parsedWords[3]).every(lessonLevel => {
+                                    if (parsedWords[3][lessonLevel]["kanji"]) {
+                                        Object.keys(parsedWords[3][lessonLevel]["kanji"]).forEach(kanji => {
+        
+                                            kanjiWord = kanjiWord.replace(parsedWords[3][lessonLevel]["kanji"][kanji].kanji, "");
+                                        })
+                                    }
+                                    if (kanjiWord.length === 0) {
+                                        const initialLesson = lesson.replace("L", "").replace("G", "0");
+                                        const level = lessonLevel.replace("L", "");
+                                        const trueLevel = (level > initialLesson) ? level : initialLesson;
+                                        readableKanjiWords.push({word: parsedWords[3][lesson][type][word], level: trueLevel});
+                                        return false;
+                                    } 
+        
+                                    return true;
+                                });
+                            } 
+                        });
+                    }
+                });
+            });
+
+            
+
+            readableKanjiWords = readableKanjiWords.sort((a, b) => (a.level > b.level) ? 1 : -1);
+            console.log(JSON.stringify(readableKanjiWords));
+
+            let strarr = [];
+            let tsv = [];
+
+            readableKanjiWords.forEach(comb => {
+                const word = comb.word;
+                strarr.push("By L" + comb.level + ": " + word.romaji + " - " + word.kanji);
+                tsv.push([word.hiragana, word.kanji, word.romaji, "kanji-word", word.english, "L" + comb.level, word.edition].join('\t'));
+            });
+
+            console.log(strarr.join('\n'));
+            console.log(tsv.join('\n'));
+
+            const newState = Object.assign({}, this.state);
+            newState.words = parsedWords;
+            newState.display = "menu";
+            this.setState(newState);
+        });
+    };

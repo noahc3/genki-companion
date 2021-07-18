@@ -1,11 +1,11 @@
 import React from 'react';
 import './index.css';
 
-export default class JapToEngGame extends React.Component {
+export default class KanjiWordToEngGame extends React.Component {
     constructor(props) {
         super(props);
         const word = this.props.word;
-        const question = word.hiragana;
+        const question = word.kanji;
         const answer = word.english;
 
         this.state = {
@@ -99,7 +99,7 @@ export default class JapToEngGame extends React.Component {
         if (!answered) {
             return (
                 <div>
-                    <h3>What is the English definition of this word?</h3>
+                    <h3>What is the English definition of this word containing Kanji?</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
@@ -133,7 +133,7 @@ export default class JapToEngGame extends React.Component {
 
             return (
                 <div class="centered-fit-width">
-                    <h3>What is the English definition of this word?</h3>
+                    <h3>What is the English definition of this word containing Kanji?</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>

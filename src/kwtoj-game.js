@@ -1,16 +1,18 @@
 import React from 'react';
 import './index.css';
 
-export default class JapToEngGame extends React.Component {
+export default class KanjiWordToJapGame extends React.Component {
     constructor(props) {
         super(props);
         const word = this.props.word;
-        const question = word.hiragana;
-        const answer = word.english;
+        const question = word.kanji;
+        const kanaAnswer = word.hiragana;
+        const romajiAnswer = word.romaji;
 
         this.state = {
             question: question,
-            answer: answer,
+            kanaAnswer: kanaAnswer,
+            romajiAnswer: romajiAnswer,
             userAnswer: "",
             answered: false,
             correct: false,
@@ -21,17 +23,11 @@ export default class JapToEngGame extends React.Component {
     answerHandler(event) {
         event.preventDefault();
 
-        const answer = this.state.answer.toLowerCase().replace(/[.~[\s?'’]+/giu, "");
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\]\s?'’]+/giu, "");
-        const answers = answer.split(';');
+        const kanaAnswer = this.state.kanaAnswer;
+        const romajiAnswer = this.state.romajiAnswer;
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(" ", "");
+        const reasonableAnswers = this.determineReasonableAnswers(kanaAnswer).concat(this.determineReasonableAnswers(romajiAnswer));
         let correct = false;
-        let reasonableAnswers = [];
-        reasonableAnswers.push(answer);
-        answers.forEach(ans => {
-            reasonableAnswers = reasonableAnswers.concat(this.determineReasonableAnswers(ans));
-            reasonableAnswers = reasonableAnswers.concat(this.determineReasonableAnswers(ans.replace('-', ' ')));
-            reasonableAnswers = reasonableAnswers.concat(this.determineReasonableAnswers(ans.replace('-', '')));
-        });
 
         if (reasonableAnswers.includes(userAnswer)) {
             correct = true;
@@ -46,12 +42,16 @@ export default class JapToEngGame extends React.Component {
 
     determineReasonableAnswers(str) {
         const reasonableAnswers = [];
-
+        
+        str = str.toLowerCase();
         reasonableAnswers.push(str);
 
         str = str.replace(/\s*[＋+].*/giu, "");
         reasonableAnswers.push(str);
 
+        str = str.replace("~", "");
+        str = str.replace(".", "");
+        str = str.replace("'", "");
         reasonableAnswers.push(str);
         reasonableAnswers.push(str.replace(" ", ""));
 
@@ -89,7 +89,8 @@ export default class JapToEngGame extends React.Component {
 
     render() {
         const question = this.state.question;
-        const answer = this.state.answer;
+        const kanaAnswer = this.state.kanaAnswer;
+        const romajiAnswer = this.state.romajiAnswer;
         const userAnswer = this.state.userAnswer;
         const answered = this.state.answered;
         const correct = this.state.correct;
@@ -99,11 +100,11 @@ export default class JapToEngGame extends React.Component {
         if (!answered) {
             return (
                 <div>
-                    <h3>What is the English definition of this word?</h3>
+                    <h3>What is the reading (hiragana) for this word containing Kanji?</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
-                    <h4>Answer in English, punctuation and capitalization is ignored.</h4>
+                    <h4>Answer with Romaji or Hiragana/Katakana (where appropriate)</h4>
                     <form onSubmit={(event) => this.answerHandler(event)}>
                         <input autoFocus type="text" value={userAnswer} onChange={(event) => this.typeHandler(event)} />
                         <input type="submit" value="Submit" />
@@ -116,13 +117,13 @@ export default class JapToEngGame extends React.Component {
                 resultAnswer = "Correct!";
                 resultAnswer = (
                     <div>
-                        <div>{answer}</div>
+                        <div>{kanaAnswer} / {romajiAnswer}</div>
                         <h3>{resultAnswer}</h3>
                     </div>
                 );
             } else {
                 resultColor = "red";
-                resultAnswer = "Incorrect. The correct answer is '" + answer + "'.";
+                resultAnswer = "Incorrect. The correct answer is " + kanaAnswer + " (" + romajiAnswer + ")";
                 resultAnswer = (
                     <div>
                         <h3>{resultAnswer}</h3>
@@ -133,7 +134,7 @@ export default class JapToEngGame extends React.Component {
 
             return (
                 <div class="centered-fit-width">
-                    <h3>What is the English definition of this word?</h3>
+                    <h3>What is the reading (hiragana) for this word containing Kanji?</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
