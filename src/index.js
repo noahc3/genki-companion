@@ -8,6 +8,7 @@ import AdjectiveTypeGame from './adjective-type-game';
 import AdjConjPresentGame from './adjective-conj-present-game';
 import AdjContPastGame from './adjective-conj-past-game';
 import AdjConjTeGame from './adjective-conj-te-game';
+import VerbTypeGame from './verb-type-game';
 import VerbConjPresentGame from './verb-conj-present-game';
 import VerbConjPastGame from './verb-conj-past-game';
 import VerbConjTeGame from './verb-conj-te-game';
@@ -25,6 +26,7 @@ class MainMenu extends React.Component {
         const optionsHandler = this.props.optionsHandler;
         const startHandler = this.props.startHandler;
         const lessons = this.props.lessons;
+        const grammar = this.props.grammar;
         const games = this.props.games;
 
         return (
@@ -115,6 +117,7 @@ class MainView extends React.Component {
                 "adj-pres-conj": {name: "Present Tense Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
                 "adj-past-conj": {name: "Past Tense Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
                 "adj-te-conj": {name: "Te-form Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
+                "verb-types": {name: "Verb Types", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
                 "verb-pres-conj": {name: "Present Tense Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
                 "verb-past-conj": {name: "Past Tense Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
                 "verb-te-conj": {name: "Te-form Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]}
@@ -375,6 +378,7 @@ class MainView extends React.Component {
             else if (display === "adj-pres-conj") game = <AdjConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "adj-past-conj") game = <AdjContPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "adj-te-conj") game = <AdjConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "verb-types") game = <VerbTypeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-pres-conj") game = <VerbConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-past-conj") game = <VerbConjPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-te-conj") game = <VerbConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
