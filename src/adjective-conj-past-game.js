@@ -1,5 +1,7 @@
 import React from 'react';
 import './index.css';
+import * as conjugate from './conjugation-utils';
+import * as utils from './utils';
 import * as wanakana from 'wanakana';
 
 export default class AdjConjPastGame extends React.Component {
@@ -7,8 +9,10 @@ export default class AdjConjPastGame extends React.Component {
         super(props);
         const word = this.props.word;
         const question = word.hiragana;
-        const type = this.getRandomInt(2);
-        const kanaAnswer = this.conjugateKana(word, type);
+        const type = utils.getRandomInt(2);
+        const kanaAnswer = (type === 0) ? 
+            conjugate.adjPastPositive(word) : 
+            conjugate.adjPastNegative(word);
         const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
@@ -21,38 +25,6 @@ export default class AdjConjPastGame extends React.Component {
             correct: false,
             enterHandler: {}
         }
-    }
-
-    getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-    }
-
-    conjugateKana(word, posNeg) {
-        let result = word.hiragana;
-        if (word.type === "na-adjective") {
-            if (posNeg === 0) {
-                result = result.replace(/\s\(な\)/giu, "だった");
-            } else {
-                result = result.replace(/\s\(な\)/giu, "じゃなかったです");
-            }
-        } else if (word.type === "i-adjective") {
-            if (posNeg === 0) {
-                if (word.hiragana === "いい") {
-                    result = "よかったです";
-                } else { 
-                    result = result.replace(/い$/giu, "かったです");
-                }
-            } else {
-                //special conjugation for ii
-                if (word.hiragana === "いい") {
-                    result = "よくなかったです";
-                } else { 
-                    result = result.replace(/い$/giu, "くなかったです");
-                }
-            }
-        }
-
-        return result;
     }
 
     answerHandler(event) {

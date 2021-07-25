@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import * as conjugate from './conjugation-utils';
 import * as wanakana from 'wanakana';
 
 const U_CONVERSION_TABLE = {
@@ -19,7 +20,7 @@ export default class VerbConjTeGame extends React.Component {
         super(props);
         const word = this.props.word;
         const question = word.hiragana;
-        const kanaAnswer = this.conjugateKana(word);
+        const kanaAnswer = conjugate.verbTe(word);
         const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
@@ -31,28 +32,6 @@ export default class VerbConjTeGame extends React.Component {
             correct: false,
             enterHandler: {}
         }
-    }
-
-    getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-    }
-
-    conjugateKana(word) {
-        let result = word.hiragana;
-        if (word.type === "ru-verb") {
-            result = result.replace(/る$/giu, "て");
-        } else if (word.type === "u-verb") {
-            if (word.hiragana === "いく") {
-                result = "いって";
-            } else {
-                result = result.replace(/.$/giu, U_CONVERSION_TABLE[result[result.length - 1]])
-            }
-        } else if (word.type === "irregular-verb") {
-            result = result.replace(/する$/giu, "して");
-            result = result.replace(/くる$/giu, "きて");
-        }
-
-        return result;
     }
 
     answerHandler(event) {

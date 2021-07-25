@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import * as utils from './utils';
 import EngToJapGame from './etoj-game';
 import JapToEngGame from './jtoe-game';
 import AdjectiveTypeGame from './adjective-type-game';
@@ -17,22 +18,6 @@ import KanjiWordToJapGame from './kwtoj-game';
 import OptionsComponent from './options-component';
 
 const EDITION = 3;
-
-function populate(obj, keyPath, value) {
-    let lastKeyIndex = keyPath.length-1;
-    for (var i = 0; i < lastKeyIndex; ++ i) {
-      let key = keyPath[i];
-      if (!(key in obj)){
-        obj[key] = {}
-      }
-      obj = obj[key];
-    }
-    obj[keyPath[lastKeyIndex]] = value;
- }
-
- function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
 
 class MainMenu extends React.Component {
 
@@ -161,7 +146,7 @@ class MainView extends React.Component {
             const parsedWords = {};
 
             json.forEach(element => {
-                populate(parsedWords, [element.edition, element.lesson, element.type, element.romaji], element);
+                utils.populate(parsedWords, [element.edition, element.lesson, element.type, element.romaji], element);
             });
 
             const newState = Object.assign({}, this.state);
@@ -182,7 +167,7 @@ class MainView extends React.Component {
             if (lessons[lesson].value) {
                 Object.keys(words[EDITION][lesson]).forEach(type => {
                     Object.values(words[EDITION][lesson][type]).forEach(word => {
-                        populate(wordPool, [word.type, word.romaji], word);
+                        utils.populate(wordPool, [word.type, word.romaji], word);
                     });
                 });
             }
@@ -312,8 +297,8 @@ class MainView extends React.Component {
     selectGame() {
         const wordPool = this.state.wordPool;
         const gamePool = this.state.gamePool;
-        const wordType = Object.keys(wordPool)[getRandomInt(Object.keys(wordPool).length)];
-        const wordKey = Object.keys(wordPool[wordType])[getRandomInt(Object.keys(wordPool[wordType]).length)];
+        const wordType = Object.keys(wordPool)[utils.getRandomInt(Object.keys(wordPool).length)];
+        const wordKey = Object.keys(wordPool[wordType])[utils.getRandomInt(Object.keys(wordPool[wordType]).length)];
         const word = wordPool[wordType][wordKey];
         const selectedGame = this.findValidGame(gamePool, word);
 
@@ -338,7 +323,7 @@ class MainView extends React.Component {
             }
         });
 
-        selectedGame = validGames[getRandomInt(validGames.length)];
+        selectedGame = validGames[utils.getRandomInt(validGames.length)];
 
         return selectedGame;
     }

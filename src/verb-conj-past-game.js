@@ -1,30 +1,18 @@
 import React from 'react';
 import './index.css';
+import * as conjugate from './conjugation-utils';
+import * as utils from './utils';
 import * as wanakana from 'wanakana';
-
-const U_CONVERSION_TABLE = {
-    "う": "い",
-    "く": "き",
-    "ぐ": "ぎ",
-    "す": "し",
-    "ず": "じ",
-    "つ": "ち",
-    "づ": "ぢ",
-    "ぬ": "に",
-    "ふ": "ひ",
-    "ぶ": "び",
-    "ぷ": "ぴ",
-    "む": "み",
-    "る": "り"
-}
 
 export default class VerbConjPastGame extends React.Component {
     constructor(props) {
         super(props);
         const word = this.props.word;
         const question = word.hiragana;
-        const type = this.getRandomInt(2);
-        const kanaAnswer = this.conjugateKana(word, type);
+        const type = utils.getRandomInt(2);
+        const kanaAnswer = (type === 0) ? 
+            conjugate.verbPastPositive(word) : 
+            conjugate.verbPastNegative(word);
         const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
@@ -37,38 +25,6 @@ export default class VerbConjPastGame extends React.Component {
             correct: false,
             enterHandler: {}
         }
-    }
-
-    getRandomInt(max) {
-        return Math.floor(Math.random() * max);
-    }
-
-    conjugateKana(word, posNeg) {
-        let result = word.hiragana;
-        if (word.type === "ru-verb") {
-            if (posNeg === 0) {
-                result = result.replace(/る$/giu, "ました");
-            } else {
-                result = result.replace(/る$/giu, "ませんでした");
-            }
-        } else if (word.type === "u-verb") {
-            if (posNeg === 0) {
-                result = result.replace(/.$/giu, U_CONVERSION_TABLE[result[result.length - 1]] + "ました")
-            } else if (posNeg === 1) {
-                result = result.replace(/.$/giu, U_CONVERSION_TABLE[result[result.length - 1]] + "ませんでした")
-            }
-        } else if (word.type === "irregular-verb") {
-            result = result.replace(/する$/giu, "し");
-            result = result.replace(/くる$/giu, "き");
-
-            if (posNeg === 0) {
-                result += "ました";
-            } else if (posNeg === 1) {
-                result += "ませんでした";
-            }
-        }
-
-        return result;
     }
 
     answerHandler(event) {
