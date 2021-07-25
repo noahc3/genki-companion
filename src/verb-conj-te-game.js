@@ -3,18 +3,6 @@ import './index.css';
 import * as conjugate from './conjugation-utils';
 import * as wanakana from 'wanakana';
 
-const U_CONVERSION_TABLE = {
-    "う": "って",
-    "く": "いて",
-    "ぐ": "いで",
-    "す": "して",
-    "つ": "って",
-    "ぬ": "んで",
-    "ぶ": "んで",
-    "む": "んで",
-    "る": "って"
-}
-
 export default class VerbConjTeGame extends React.Component {
     constructor(props) {
         super(props);

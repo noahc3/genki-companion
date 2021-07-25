@@ -27,7 +27,6 @@ class MainMenu extends React.Component {
         const optionsHandler = this.props.optionsHandler;
         const startHandler = this.props.startHandler;
         const lessons = this.props.lessons;
-        const grammar = this.props.grammar;
         const games = this.props.games;
 
         return (
