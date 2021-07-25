@@ -4401,9 +4401,9 @@
    "edition": 3
  },
  {
-   "hiragana": "かける (めがねを)",
-   "kanji": "かける (眼鏡を)",
-   "romaji": "kakeru (meganeo)",
+   "hiragana": "(めがねを) かける",
+   "kanji": "(眼鏡を) かける",
+   "romaji": "(meganeo) kakeru",
    "type": "ru-verb",
    "english": "to put on (glasses) ",
    "lesson": "L7",
