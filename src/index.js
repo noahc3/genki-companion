@@ -12,6 +12,7 @@ import VerbTypeGame from './verb-type-game';
 import VerbConjPresentGame from './verb-conj-present-game';
 import VerbConjPastGame from './verb-conj-past-game';
 import VerbConjTeGame from './verb-conj-te-game';
+import VerbRootGame from './verb-root-game';
 import KanjiReadingGame from './kanji-reading-game';
 import KanjiDefinitionGame from './kanji-definition-game';
 import KanjiWordToEngGame from './kwtoe-game';
@@ -120,7 +121,8 @@ class MainView extends React.Component {
                 "verb-types": {name: "Verb Types", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
                 "verb-pres-conj": {name: "Present Tense Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
                 "verb-past-conj": {name: "Past Tense Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
-                "verb-te-conj": {name: "Te-form Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]}
+                "verb-te-conj": {name: "Te-form Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
+                "verb-root": {name: "Conjugated Verb Dictionary Forms", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]}
             },
             words: {},
             wordPool: {},
@@ -382,6 +384,7 @@ class MainView extends React.Component {
             else if (display === "verb-pres-conj") game = <VerbConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-past-conj") game = <VerbConjPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-te-conj") game = <VerbConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "verb-root") game = <VerbRootGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "kanji-reading") game = <KanjiReadingGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "kanji-definition") game = <KanjiDefinitionGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "kwtoe") game = <KanjiWordToEngGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
