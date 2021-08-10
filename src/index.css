@@ -1,12 +1,17 @@
 @font-face {
-    font-family: 'UDDigiKyokashoNK-R-03';
-    src:local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.woff) format('woff'),
-        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.woff2) format('woff2'),
-        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.svg#UDDigiKyokashoNK-R-03) format('svg'),
-        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.eot),
-        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.eot?#iefix) format('embedded-opentype'),
-        local('UDDigiKyoukashoNK-R-03'), url(fonts/UDDigiKyokashoNK-R-03.ttf) format('truetype');
+    font-family: 'Restricted-UDDigiKyokashoNK-R';
+    src:local('UD Digi Kyokasho NK-R');
 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: u+3000-9FFF;
+}
+
+@font-face {
+    font-family: 'motoyalmaruw3_mono';
+    src: url('fonts/kosugimaru-regular-webfont.woff2') format('woff2'),
+         url('fonts/kosugimaru-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -15,7 +20,7 @@
   
 
 body {
-    font-family: 'UDDigiKyokashoNK-R-03', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Restricted-UDDigiKyokashoNK-R', 'motoyalmaruw3_mono', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
