@@ -419,7 +419,8 @@ ReactDOM.render(
         <MainView />
         <div class="copyright center-text">
             <p>
-            Copyright © 2021 Noah Curoe. All Rights Reserved <br/>
+            Copyright © 2021 Noah Curoe. <br/>
+            This website is <a href="https://github.com/noahc3/genki-companion">open source</a> and available under the <a href="https://github.com/noahc3/genki-companion/blob/master/LICENSE">GNU Affero General Public License v3.0</a>. <br/>
             The GENKI name is Copyright © The Japan Times Publishing, Ltd. 
             This site is in no way affiliated with 
             The Japan Times Publishing, Ltd. or any of its partners.
