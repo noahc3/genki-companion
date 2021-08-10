@@ -7,10 +7,12 @@ import JapToEngGame from './jtoe-game';
 import AdjectiveTypeGame from './adjective-type-game';
 import AdjConjPresentGame from './adjective-conj-present-game';
 import AdjContPastGame from './adjective-conj-past-game';
+import AdjConjShortPresentGame from './adjective-conj-short-present-game';
 import AdjConjTeGame from './adjective-conj-te-game';
 import VerbTypeGame from './verb-type-game';
 import VerbConjPresentGame from './verb-conj-present-game';
 import VerbConjPastGame from './verb-conj-past-game';
+import VerbConjShortPresentGame from './verb-conj-short-present-game';
 import VerbConjTeGame from './verb-conj-te-game';
 import VerbRootGame from './verb-root-game';
 import KanjiReadingGame from './kanji-reading-game';
@@ -114,12 +116,16 @@ class MainView extends React.Component {
                 "kwtoe": {name: "Kanji Word English Definitions", value: false, validWordTypes: ["kanji-word"]},
                 "kwtoj": {name: "Kanji Word Readings", value: false, validWordTypes: ["kanji-word"]},
                 "adj-types": {name: "Adjective Types", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
-                "adj-pres-conj": {name: "Present Tense Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
-                "adj-past-conj": {name: "Past Tense Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
+                "adj-pres-conj": {name: "Long Present Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
+                "adj-past-conj": {name: "Long Past Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
+                "adj-short-past-conj": {name: "Short Present Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
+                
                 "adj-te-conj": {name: "Te-form Adjective Conjugation", value: false, validWordTypes: ["i-adjective", "na-adjective"]},
                 "verb-types": {name: "Verb Types", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
-                "verb-pres-conj": {name: "Present Tense Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
-                "verb-past-conj": {name: "Past Tense Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
+                "verb-pres-conj": {name: "Long Form Present Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
+                "verb-past-conj": {name: "Long Form Past Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
+                "verb-pres-short-conj": {name: "Short Form Present Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
+                
                 "verb-te-conj": {name: "Te-form Verb Conjugation", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]},
                 "verb-root": {name: "Conjugated Verb Dictionary Forms", value: false, validWordTypes: ["irregular-verb", "ru-verb", "u-verb"]}
             },
@@ -378,17 +384,19 @@ class MainView extends React.Component {
             else if (display === "jtoe") game = <JapToEngGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "adj-pres-conj") game = <AdjConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "adj-past-conj") game = <AdjContPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "adj-short-past-conj") game = <AdjConjShortPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "adj-te-conj") game = <AdjConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-types") game = <VerbTypeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-pres-conj") game = <VerbConjPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-past-conj") game = <VerbConjPastGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
+            else if (display === "verb-pres-short-conj") game = <VerbConjShortPresentGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-te-conj") game = <VerbConjTeGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "verb-root") game = <VerbRootGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "kanji-reading") game = <KanjiReadingGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "kanji-definition") game = <KanjiDefinitionGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "kwtoe") game = <KanjiWordToEngGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
             else if (display === "kwtoj") game = <KanjiWordToJapGame key={word.english+word.romaji} word={word} nextHandler={(correct) => this.nextHandler(correct)}/>;
-            
+
             return (
                 <div>
                     <div id="main-view" class="center-text">

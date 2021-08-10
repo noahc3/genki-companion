@@ -1,4 +1,4 @@
-const U_VERB_CONVERSION_TABLE = {
+const U_VERB_I_CONVERSION_TABLE = {
     "う": "い",
     "く": "き",
     "ぐ": "ぎ",
@@ -12,6 +12,22 @@ const U_VERB_CONVERSION_TABLE = {
     "ぷ": "ぴ",
     "む": "み",
     "る": "り"
+}
+
+const U_VERB_A_CONVERSION_TABLE = {
+    "う": "わ",
+    "く": "か",
+    "ぐ": "が",
+    "す": "さ",
+    "ず": "ざ",
+    "つ": "た",
+    "づ": "だ",
+    "ぬ": "な",
+    "ふ": "は",
+    "ぶ": "ば",
+    "ぷ": "ぱ",
+    "む": "ま",
+    "る": "ら"
 }
 
 const U_VERB_TE_CONVERSION_TABLE = {
@@ -30,10 +46,16 @@ const VERB_TE_OVERRIDES = {
     "いく": "いって"
 }
 
-const ADJ_PRES_NEG_OVERRIDES = {
+const ADJ_LONG_PRES_NEG_OVERRIDES = {
     "いい": "よくないです",
     "かっこいい": "かっこよくないです",
     "あたまがいい": "あたまがよくないです"
+}
+
+const ADJ_SHORT_PRES_NEG_OVERRIDES = {
+    "いい": "よくない",
+    "かっこいい": "かっこよくない",
+    "あたまがいい": "あたまがよくない"
 }
 
 const ADJ_PAST_POS_OVERRIDES = {
@@ -54,13 +76,13 @@ const ADJ_TE_OVERRIDES = {
     "あたまがいい": "あたまがよくて"
 }
 
-function verbPresentPositive(word) {
+export function verbLongPresentPositive(word) {
     let result = word.hiragana;
 
     if (word.type === "ru-verb") {
         result = result.replace(/る$/giu, "ます");
     } else if (word.type === "u-verb") {
-        result = result.replace(/.$/giu, U_VERB_CONVERSION_TABLE[result[result.length - 1]] + "ます")
+        result = result.replace(/.$/giu, U_VERB_I_CONVERSION_TABLE[result[result.length - 1]] + "ます")
     } else if (word.type === "irregular-verb") {
         result = result.replace(/する$/giu, "し");
         result = result.replace(/くる$/giu, "き");
@@ -70,13 +92,13 @@ function verbPresentPositive(word) {
     return result;
 }
 
-function verbPresentNegative(word) {
+export function verbLongPresentNegative(word) {
     let result = word.hiragana;
 
     if (word.type === "ru-verb") {
         result = result.replace(/る$/giu, "ません");
     } else if (word.type === "u-verb") {
-        result = result.replace(/.$/giu, U_VERB_CONVERSION_TABLE[result[result.length - 1]] + "ません")
+        result = result.replace(/.$/giu, U_VERB_I_CONVERSION_TABLE[result[result.length - 1]] + "ません")
     } else if (word.type === "irregular-verb") {
         result = result.replace(/する$/giu, "し");
         result = result.replace(/くる$/giu, "き");
@@ -86,13 +108,13 @@ function verbPresentNegative(word) {
     return result;
 }
 
-function verbPastPositive(word) {
+export function verbLongPastPositive(word) {
     let result = word.hiragana;
 
     if (word.type === "ru-verb") {
         result = result.replace(/る$/giu, "ました");
     } else if (word.type === "u-verb") {
-        result = result.replace(/.$/giu, U_VERB_CONVERSION_TABLE[result[result.length - 1]] + "ませんでした")
+        result = result.replace(/.$/giu, U_VERB_I_CONVERSION_TABLE[result[result.length - 1]] + "ませんでした")
     } else if (word.type === "irregular-verb") {
         result = result.replace(/する$/giu, "し");
         result = result.replace(/くる$/giu, "き");
@@ -102,13 +124,13 @@ function verbPastPositive(word) {
     return result;
 }
 
-function verbPastNegative(word) {
+export function verbLongPastNegative(word) {
     let result = word.hiragana;
     
     if (word.type === "ru-verb") {
         result = result.replace(/る$/giu, "ませんでした");
     } else if (word.type === "u-verb") {
-        result = result.replace(/.$/giu, U_VERB_CONVERSION_TABLE[result[result.length - 1]] + "ませんでした")
+        result = result.replace(/.$/giu, U_VERB_I_CONVERSION_TABLE[result[result.length - 1]] + "ませんでした")
     } else if (word.type === "irregular-verb") {
         result = result.replace(/する$/giu, "し");
         result = result.replace(/くる$/giu, "き");
@@ -118,7 +140,32 @@ function verbPastNegative(word) {
     return result;
 }
 
-function verbTe(word) {
+export function verbShortPresentPositive(word) {
+    let result = word.hiragana;
+
+    //nothing to do, equivalent to dictionary form!
+
+    return result;
+}
+
+export function verbShortPresentNegative(word) {
+    let result = word.hiragana;
+
+    if (result === "ある") {
+        result = "ない";
+    } else if (word.type === "ru-verb") {
+        result = result.replace(/る$/giu, "ない");
+    } else if (word.type === "u-verb") {
+        result = result.replace(/.$/giu, U_VERB_A_CONVERSION_TABLE[result[result.length - 1]] + "ない")
+    } else if (word.type === "irregular-verb") {
+        result = result.replace(/する$/giu, "しない");
+        result = result.replace(/くる$/giu, "こない");
+    }
+
+    return result;
+}
+
+export function verbTe(word) {
     let result = word.hiragana;
 
     if (VERB_TE_OVERRIDES[result]) {
@@ -135,7 +182,7 @@ function verbTe(word) {
     return result;
 }
 
-function adjPresentPositive(word) {
+export function adjLongPresentPositive(word) {
     let result = word.hiragana;
 
     if (word.type === "na-adjective") {
@@ -147,11 +194,11 @@ function adjPresentPositive(word) {
     return result;
 }
 
-function adjPresentNegative(word) {
+export function adjLongPresentNegative(word) {
     let result = word.hiragana;
 
-    if (ADJ_PRES_NEG_OVERRIDES[result]) {
-        result = ADJ_PRES_NEG_OVERRIDES[result];
+    if (ADJ_LONG_PRES_NEG_OVERRIDES[result]) {
+        result = ADJ_LONG_PRES_NEG_OVERRIDES[result];
     } else if (word.type === "na-adjective") {
         result = result.replace(/\s\(な\)/giu, "じゃないです");
     } else if (word.type === "i-adjective") {
@@ -162,7 +209,7 @@ function adjPresentNegative(word) {
 
 }
 
-function adjPastPositive(word) {
+export function adjLongPastPositive(word) {
     let result = word.hiragana;
 
     if (ADJ_PAST_POS_OVERRIDES[result]) {
@@ -176,7 +223,7 @@ function adjPastPositive(word) {
     return result;
 }
 
-function adjPastNegative(word) {
+export function adjLongPastNegative(word) {
     let result = word.hiragana;
 
     if (ADJ_PAST_NEG_OVERRIDES[result]) {
@@ -190,7 +237,32 @@ function adjPastNegative(word) {
     return result;
 }
 
-function adjTe(word) {
+export function adjShortPresentPositive(word) {
+    let result = word.hiragana;
+
+    if (word.type === "na-adjective") {
+        result = result.replace(/\s\(な\)/giu, "");
+    }
+
+    return result;
+}
+
+export function adjShortPresentNegative(word) {
+    let result = word.hiragana;
+
+    if (ADJ_SHORT_PRES_NEG_OVERRIDES[result]) {
+        result = ADJ_SHORT_PRES_NEG_OVERRIDES[result];
+    } else if (word.type === "na-adjective") {
+        result = result.replace(/\s\(な\)/giu, "じゃない");
+    } else if (word.type === "i-adjective") {
+        result = result.replace(/い$/giu, "くない");
+    }
+
+    return result;
+
+}
+
+export function adjTe(word) {
     let result = word.hiragana;
 
     if (ADJ_TE_OVERRIDES[result]) {
@@ -202,17 +274,4 @@ function adjTe(word) {
     }
 
     return result;
-}
-
-module.exports = { 
-    verbPresentPositive, 
-    verbPresentNegative, 
-    verbPastPositive, 
-    verbPastNegative,
-    verbTe,
-    adjPresentPositive,
-    adjPresentNegative,
-    adjPastPositive,
-    adjPastNegative,
-    adjTe
 }

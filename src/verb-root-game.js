@@ -7,10 +7,10 @@ export default class VerbRootGame extends React.Component {
     constructor(props) {
         super(props);
         const conjugations = [
-            conjugate.verbPresentPositive,
-            conjugate.verbPresentNegative,
-            conjugate.verbPastPositive,
-            conjugate.verbPastNegative,
+            conjugate.verbLongPresentPositive,
+            conjugate.verbLongPresentNegative,
+            conjugate.verbLongPastPositive,
+            conjugate.verbLongPastNegative,
             conjugate.verbTe,
             conjugate.verbTe,
             conjugate.verbTe

@@ -11,8 +11,8 @@ export default class VerbConjPastGame extends React.Component {
         const question = word.hiragana;
         const type = utils.getRandomInt(2);
         const kanaAnswer = (type === 0) ? 
-            conjugate.verbPastPositive(word) : 
-            conjugate.verbPastNegative(word);
+            conjugate.verbLongPastPositive(word) : 
+            conjugate.verbLongPastNegative(word);
         const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
@@ -82,7 +82,7 @@ export default class VerbConjPastGame extends React.Component {
         if (!answered) {
             return (
                 <div>
-                    <h3>Conjugate this <span class="question-highlight">verb</span> with the formal <span class="question-highlight">past {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">verb</span> with the <span class="question-highlight">long form past {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
@@ -116,7 +116,7 @@ export default class VerbConjPastGame extends React.Component {
 
             return (
                 <div class="centered-fit-width">
-                    <h3>Conjugate this <span class="question-highlight">verb</span> with the formal <span class="question-highlight">past {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">verb</span> with the <span class="question-highlight">long form past {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>

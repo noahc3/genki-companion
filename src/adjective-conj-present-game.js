@@ -11,8 +11,8 @@ export default class AdjConjPresentGame extends React.Component {
         const question = word.hiragana;
         const type = utils.getRandomInt(2);
         const kanaAnswer = (type === 0) ? 
-            conjugate.adjPresentPositive(word) : 
-            conjugate.adjPresentNegative(word);
+            conjugate.adjLongPresentPositive(word) : 
+            conjugate.adjLongPresentNegative(word);
         const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
@@ -82,7 +82,7 @@ export default class AdjConjPresentGame extends React.Component {
         if (!answered) {
             return (
                 <div>
-                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">present {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">long form present {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
@@ -116,7 +116,7 @@ export default class AdjConjPresentGame extends React.Component {
 
             return (
                 <div class="centered-fit-width">
-                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">present {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">long form present {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>

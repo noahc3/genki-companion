@@ -11,8 +11,8 @@ export default class AdjConjPastGame extends React.Component {
         const question = word.hiragana;
         const type = utils.getRandomInt(2);
         const kanaAnswer = (type === 0) ? 
-            conjugate.adjPastPositive(word) : 
-            conjugate.adjPastNegative(word);
+            conjugate.adjLongPastPositive(word) : 
+            conjugate.adjLongPastNegative(word);
         const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
@@ -82,7 +82,7 @@ export default class AdjConjPastGame extends React.Component {
         if (!answered) {
             return (
                 <div>
-                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">past {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">long form past {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
@@ -116,7 +116,7 @@ export default class AdjConjPastGame extends React.Component {
 
             return (
                 <div class="centered-fit-width">
-                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">past {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">long form past {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>

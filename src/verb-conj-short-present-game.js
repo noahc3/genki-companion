@@ -4,15 +4,15 @@ import * as conjugate from './conjugation-utils';
 import * as utils from './utils';
 import * as wanakana from 'wanakana';
 
-export default class VerbConjPresentGame extends React.Component {
+export default class VerbConjShortPresentGame extends React.Component {
     constructor(props) {
         super(props);
         const word = this.props.word;
         const question = word.hiragana;
         const type = utils.getRandomInt(2);
         const kanaAnswer = (type === 0) ? 
-            conjugate.verbLongPresentPositive(word) : 
-            conjugate.verbLongPresentNegative(word);
+            conjugate.verbShortPresentPositive(word) : 
+            conjugate.verbShortPresentNegative(word);
         const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
@@ -82,7 +82,7 @@ export default class VerbConjPresentGame extends React.Component {
         if (!answered) {
             return (
                 <div>
-                    <h3>Conjugate this <span class="question-highlight">verb</span> with the <span class="question-highlight">long form present {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">verb</span> with the <span class="question-highlight">short form present {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
@@ -116,7 +116,7 @@ export default class VerbConjPresentGame extends React.Component {
 
             return (
                 <div class="centered-fit-width">
-                    <h3>Conjugate this <span class="question-highlight">verb</span> with the <span class="question-highlight">long form present {type}</span> ending.</h3>
+                    <h3>Conjugate this <span class="question-highlight">verb</span> with the <span class="question-highlight">short form present {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
