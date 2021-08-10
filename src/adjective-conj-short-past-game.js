@@ -1,31 +1,23 @@
 import React from 'react';
+import './index.css';
 import * as conjugate from './conjugation-utils';
 import * as utils from './utils';
-import './index.css';
+import * as wanakana from 'wanakana';
 
-export default class VerbRootGame extends React.Component {
+export default class AdjConjShortPastGame extends React.Component {
     constructor(props) {
         super(props);
-        const conjugations = [
-            conjugate.verbLongPresentPositive,
-            conjugate.verbLongPresentNegative,
-            conjugate.verbLongPastPositive,
-            conjugate.verbLongPastNegative,
-            conjugate.verbShortPresentNegative,
-            conjugate.verbShortPastPositive,
-            conjugate.verbShortPastNegative,
-            conjugate.verbTe,
-            conjugate.verbTe,
-            conjugate.verbTe
-        ]; //add verbTe multiple times to increase random weight.
         const word = this.props.word;
-        const type = utils.getRandomInt(conjugations.length);
-        const question = conjugations[type](word);
-        const kanaAnswer = word.hiragana;
-        const romajiAnswer = word.romaji;
+        const question = word.hiragana;
+        const type = utils.getRandomInt(2);
+        const kanaAnswer = (type === 0) ? 
+            conjugate.adjShortPastPositive(word) : 
+            conjugate.adjShortPastNegative(word);
+        const romajiAnswer = wanakana.toRomaji(kanaAnswer);
 
         this.state = {
             question: question,
+            type: (type === 0) ? "affirmative" : "negative",
             kanaAnswer: kanaAnswer,
             romajiAnswer: romajiAnswer,
             userAnswer: "",
@@ -40,11 +32,10 @@ export default class VerbRootGame extends React.Component {
 
         const kanaAnswer = this.state.kanaAnswer;
         const romajiAnswer = this.state.romajiAnswer;
-        const userAnswer = this.state.userAnswer.toLowerCase().replace(" ", "");
-        const reasonableAnswers = this.determineReasonableAnswers(kanaAnswer).concat(this.determineReasonableAnswers(romajiAnswer));
+        const userAnswer = this.state.userAnswer.toLowerCase().replace(/[.~[\]\s']+/giu, "");
         let correct = false;
 
-        if (reasonableAnswers.includes(userAnswer)) {
+        if (userAnswer === kanaAnswer || userAnswer === romajiAnswer) {
             correct = true;
         }
 
@@ -53,31 +44,6 @@ export default class VerbRootGame extends React.Component {
 
     typeHandler(event) {
         this.setState({ userAnswer: event.target.value });
-    }
-
-    determineReasonableAnswers(str) {
-        const reasonableAnswers = [];
-        
-        str = str.toLowerCase();
-        reasonableAnswers.push(str);
-
-        str = str.replace(/\s*[＋+].*/giu, "");
-        reasonableAnswers.push(str);
-
-        str = str.replace("~", "");
-        str = str.replace(".", "");
-        str = str.replace("'", "");
-        reasonableAnswers.push(str);
-        reasonableAnswers.push(str.replace(" ", ""));
-
-        reasonableAnswers.push(str.replace(/\s*\([^)]*\)\s*/giu, ""))
-
-        str = str.replace("(", "");
-        str = str.replace(")", "");
-        reasonableAnswers.push(str);
-        reasonableAnswers.push(str.replace(" ", ""));
-
-        return reasonableAnswers;
     }
 
     handleEnter(event) {
@@ -104,6 +70,7 @@ export default class VerbRootGame extends React.Component {
 
     render() {
         const question = this.state.question;
+        const type = this.state.type;
         const kanaAnswer = this.state.kanaAnswer;
         const romajiAnswer = this.state.romajiAnswer;
         const userAnswer = this.state.userAnswer;
@@ -115,7 +82,7 @@ export default class VerbRootGame extends React.Component {
         if (!answered) {
             return (
                 <div>
-                    <h3>What is the dictionary form for this verb?</h3>
+                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">short form past {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
@@ -149,7 +116,7 @@ export default class VerbRootGame extends React.Component {
 
             return (
                 <div class="centered-fit-width">
-                    <h3>What is the dictionary form for this verb?</h3>
+                    <h3>Conjugate this <span class="question-highlight">adjective</span> with the <span class="question-highlight">short form past {type}</span> ending.</h3>
                     <div>
                         <h2>{question}</h2>
                     </div>
