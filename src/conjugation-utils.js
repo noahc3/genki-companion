@@ -31,19 +31,27 @@ const VERB_TE_OVERRIDES = {
 }
 
 const ADJ_PRES_NEG_OVERRIDES = {
-    "いい": "よくないです"
+    "いい": "よくないです",
+    "かっこいい": "かっこよくないです",
+    "あたまがいい": "あたまがよくないです"
 }
 
 const ADJ_PAST_POS_OVERRIDES = {
-    "いい": "よかったです"
+    "いい": "よかったです",
+    "かっこいい": "かっこよかったです",
+    "あたまがいい": "あたまがよかったです"
 }
 
 const ADJ_PAST_NEG_OVERRIDES = {
     "いい": "よくなかったです",
+    "かっこいい": "かっこよくなかったです",
+    "あたまがいい": "あたまがよくなかったです"
 }
 
 const ADJ_TE_OVERRIDES = {
-    "いい": "よくて"
+    "いい": "よくて",
+    "かっこいい": "かっこよくて",
+    "あたまがいい": "あたまがよくて"
 }
 
 function verbPresentPositive(word) {
