@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.a0bd4a4f.chunk.css",
+    "main.css": "/static/css/main.7aaf7676.chunk.css",
     "main.js": "/static/js/main.c0f22fd6.chunk.js",
     "main.js.map": "/static/js/main.c0f22fd6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.71c467db.js",
@@ -8,14 +8,14 @@
     "static/js/2.7a2575cd.chunk.js": "/static/js/2.7a2575cd.chunk.js",
     "static/js/2.7a2575cd.chunk.js.map": "/static/js/2.7a2575cd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a0bd4a4f.chunk.css.map": "/static/css/main.a0bd4a4f.chunk.css.map",
+    "static/css/main.7aaf7676.chunk.css.map": "/static/css/main.7aaf7676.chunk.css.map",
     "static/js/2.7a2575cd.chunk.js.LICENSE.txt": "/static/js/2.7a2575cd.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/UDDigiKyokashoNK-R-03.d492a7dc.ttf"
+    "static/media/index.css": "/static/media/kosugimaru-regular-webfont.d35f14d5.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.71c467db.js",
     "static/js/2.7a2575cd.chunk.js",
-    "static/css/main.a0bd4a4f.chunk.css",
+    "static/css/main.7aaf7676.chunk.css",
     "static/js/main.c0f22fd6.chunk.js"
   ]
 }
