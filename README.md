@@ -10,6 +10,8 @@ This website includes all vocabulary and Kanji as well as most of the important 
 
 ## Code Quality Disclaimer
 
+**This code should be treated as a high-fidelity prototype with a little bit of extra polish to make it not-too-frustrating to use.**
+
 I created this project primarily to aid me in learning Japanese in my intro course, but also as my first foray into JS-based web development and React. This project was started having less than four hours of prior React experience, so the code quality is *abysmal*. Some notable problems:
 
 - Lots of copy pasted React componenets, which could be joined into a generalized component and customized with props.
