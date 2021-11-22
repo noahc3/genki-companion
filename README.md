@@ -1,6 +1,6 @@
 # Genki Companion
 
-*Hosted version available at [https://genki.noahc3.tk](https://genki.noahc3.ml).*
+*Hosted version available at [https://genki.noahc3.ml](https://genki.noahc3.ml).*
 
 Genki Companion is a website build with ReactJS to help you learn and study Japanese vocabulary, kanji, and conjugation rules alongside the GENKI 1 3rd edition textbook.
 
